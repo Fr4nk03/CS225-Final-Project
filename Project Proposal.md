@@ -1,18 +1,16 @@
 ## Leading Question 
-We want to investigate the categories of the products on Amazon by finding different connected components first. But what kind of product that represents this category? So, betweeness centrality is what we think of to measure the most popular product in a specific category, ie.the connected component. A back-up question can be formulated if we find the calculation for centrality to be too hard: we can compare the closeness of two products using dijkstra's algorithm because the shorter the path is, the closer these two products are.
-
-For finding connected components, we can use the DFS traversal or Disjoint Set Union. For testing with a relatively small amount of data, we might use the DFS at first because it has O(V+E) runtime. But because the huge amount of data in the whole dataset, we will use disjoint set union instead to increase the efficiency because it only has a O(V) runtime and space. More details of between centrality will be mentioned in the "Algorithm" section below.
+Our dataset is a directed graph from Amazon. Each node is a product and the edge from i to j means that product i is always being co-purchased with product j. Our goal is to use the dataset to find the most popular product and make a category for these products. In this way, it will be a general and easy search tool for people to find some recommendations. To achieve this, we will use DFS as our traversal algorithm for our directed graph. Then, in order to find the most popular item in this graph, we will use PageRank algorithm to assign the popularity or importance of each item. For categorizing these items, we will use Tarjan's algorithm to find the strong connected algorithm.
 
 ## Dataset Acquisition
-Amazon Product Dataset: http://snap.stanford.edu/data/com-Amazon.html
+Amazon Product Co-Purchasing Network Dataset: http://snap.stanford.edu/data/amazon0302.html
 
 ## Data Format
-A txt file stores the edges of an undirected graph connecting one node (a product) to another if they are bought together on Amazon. The weight for every edge is simply one because they are just connected. This txt file is extremely simple to read because it only has two columns representing the two product IDs. So, product ID should be a field of a node. 
+A txt file stores the edges of a directed graph from node i (a product) to node j if product i is frequently co-purchased with product j. The weight should be the result of 1 divides the sum of all edges leaving this node. This txt file is extremely simple to read because it only has two columns representing the two product IDs. So, product ID should be a field of a node. 
 
 Some key facts:
-//Nodes: 334863
-//Edges: 925872
-//Diameter (longest shortest path): 44
+//Nodes: 262111
+//Edges: 1234877
+//Diameter (longest shortest path): 32
 
 Since the dataset is huge, we may use a subset which only include the first 1/50 or 1/100 of the edges. Because the source node is in an increasing order, this subset will not lose generality with respect to the final result.  
 
@@ -20,7 +18,7 @@ Since the dataset is huge, we may use a subset which only include the first 1/50
 Because the product ID can't be negative, if we find a negative id, we will simply ignore that pair of IDs which means that we will not add this edge into our graph.
 
 ## Data Storage
-We will use adjacency list implementation by vector instead of linked list to store our graph. It saves space with O(V+E) storage. Moreover, adding a vertex (push_back) and finding all neighbors of a vertex (find the specific vector) takes optimal time.
+We will use adjacency list implementation by linked list to store our graph. The node has the coming edge will be the next element in the linked list of the node pointing to it.
 
 ## Algorithm 
 

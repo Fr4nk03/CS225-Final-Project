@@ -1,5 +1,5 @@
 ## Leading Question 
-Our dataset is a directed graph from Amazon. Each node is a product and the edge from i to j means that product i is always being co-purchased with product j. Our goal is to use the dataset to find the most popular product and make a category for these products. In this way, it will be a general and easy search tool for people to find some recommendations. To achieve this, we will use DFS as our traversal algorithm for our directed graph. Then, in order to find the most popular item in this graph, we will use PageRank algorithm to assign the popularity or importance of each item. For categorizing these items, we will use Tarjan's algorithm to find the strong connected algorithm.
+Our dataset is a directed graph from Amazon. Each node is a product and the edge from i to j means that product j is always being co-purchased with product i. Our goal is to use the dataset to find the most popular product and make a category for these products. In this way, it will be a general and easy search tool for people to find some recommendations. For categorizing the products, we will use Tarjan's algorithm to find the strong connected components. To help achieve the goal, we will use DFS as our traversal algorithm for our directed graph. Then, in order to find the most popular item in this graph, we will use PageRank algorithm to assign the popularity or importance of each item. 
 
 ## Dataset Acquisition
 Amazon Product Co-Purchasing Network Dataset: http://snap.stanford.edu/data/amazon0302.html
@@ -18,7 +18,7 @@ Since the dataset is huge, we may use a subset which only include the first 1/50
 Because the product ID can't be negative, if we find a negative id, we will simply ignore that pair of IDs which means that we will not add this edge into our graph.
 
 ## Data Storage
-We will use adjacency list implementation by linked list to store our graph. The node has the coming edge will be the next element in the linked list of the node pointing to it.
+We will use adjacency list implemented by a 2d vector to store and update our transition matrix. The node has the coming edge will be the next element in the linked list of the node pointing to it.
 
 ## Algorithm 
 

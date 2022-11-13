@@ -1,5 +1,5 @@
 ## Leading Question 
-Our dataset is a directed graph from Amazon. Each node is a product and the edge from i to j means that product j is always being co-purchased with product i. Our goal is to use the dataset to find the popularity of the products, categorize them, and find the most popular product in the group. In this way, it will be a general and easy search tool for people to find some recommendations for co-purchasing products. In order to categorize the products, we will first use PageRank algorithm to assign the popularity or importance of each item and then delete the nodes which has a pagerank less than a specific number. Then, use Tarjan's algorithm to find the strong connected components and hence find the most popular one in the category based on the pagerank value we've calculated previously. To help achieve the goal, we will use DFS as our traversal algorithm for our directed graph. 
+Our dataset is a directed graph from Amazon. Each node is a product and the edge from i to j means that product j is always being co-purchased with product i. Our goal is to use the dataset to find the popularity of the products, categorize them, and find the most popular product in the group. In this way, it will be a general and easy search tool for people to find some recommendations for co-purchasing products. In order to categorize the products, we will first use PageRank algorithm to assign the popularity or importance of each item and then, use Tarjan's algorithm to find the strong connected components and finally find the most popular one in the category based on the pagerank value we've calculated previously. To help achieve the goal, we will use DFS as our traversal algorithm for our directed graph. 
 
 
 ## Dataset Acquisition
@@ -19,20 +19,25 @@ Since the dataset is huge, we may use a subset which only include the first 1/50
 Because the product ID can't be negative, if we find a negative id, we will simply ignore that pair of IDs which means that we will not add this edge into our graph.
 
 ## Data Storage
-We will use adjacency list implemented by a 2d vector to store and update our transition matrix. 
+We will use a 2d dynamic array list<int> to store the graph adjacency list. For each node, we have three fields: its index, pagerank value and the ranking in the whole graph.
 
 
 ## Algorithm 
 
 The algorithms we would like to use are Pagerank to evaluate popularity of the products (nodes in the graph) and Tarjan's Algorithm to find strongly connected component to categorize the products and find the most popular one in the specific group.
 
-### Algorithm 1: Pagerank Algorithm
-Function input: an undirected graph
+### Algorithm 1: Pagerank Algorithm (assign the pagerank value to each node)
+  
+Basic idea: When the transition matrix reaches to its steady state, we now have the final pagerank value and then we assign it to each node. We will also update the ranking into the node field so that when working on finding the most popular item in a group, we only need to find the node with the least ranking.
 
-Function output: 
+Function input: 2d dynamic array list<int> 
+
+Function output: void
 
 Function efficiency: 
-
+- Time Complexity: Each iteration requires one vector-matrix multiplication, which on average requires O(n^2) time complexity, where n is the size of the 2d adjacency list.
+- Memory: Our target memory performance is O(|E|) where |E| denotes the total number of edges in the graph.
+  
 Reference:
 https://www.youtube.com/watch?v=kIUtEsaHpJU (The brief overview of the combination of Pagerank with strongly connected component) 
 

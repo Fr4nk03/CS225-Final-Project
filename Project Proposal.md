@@ -22,18 +22,26 @@ We will use adjacency list implemented by a 2d vector to store and update our tr
 
 ## Algorithm 
 
-The algorithm we would like to use is the combination of dijkstra's algorithm and betweeness centrality. To calculate the betweeness centrality of a node, we need to count all the shortest paths that passes this node so we need the help of dijkstra's algorithm.
+The algorithms we would like to use are Tarjan's Algorithm to find strongly connected component and Pagerank to evaluate popularity of certain products in the recommendation system.
 
-Function input: connected component
+Algorithm 1: Tarjan's Algorithm
+Function input: the undirected graph
+
 Function output: update the maximum centrality calculated for each vertex and return the product ID with the maximum centrality. If we finish our goal earlier, we may think about making a visualization of the products from high to low of their centrality scores.
+
 Function efficiency: For our undirected Graph, betweeness centrality is calculated base on the algorithm proposed by Brandes, 2001. This algorithm can calculate the score for each node in O(V+E). Since our leading question is about the most popular products in a specific connected component and these popular products can be similiar, the exact and accurate ranking of the centrality is not necessary. Hence, the approximation algorithms for betweenness centrality that consistently and efficiently discover the highest betweenness vertices may be more useful than computing the centrality score for every vertex exactly. We will try our best to reach our expected space efficiency which is less than O(V^2). 
 
-Reference:
-Ulrich Brandes (2001). A faster algorithm for betweenness
-centrality. Journal of Mathematical Sociology. 25:163–177.
+Algorithm 2: Pagerank Algorithm
+Function_1 input: a strongly connected component
 
-Comparing the speed and accuracy of approaches to betweenness centrality approximation:
-https://computationalsocialnetworks.springeropen.com/articles/10.1186/s40649-019-0062-5
+Function_1 output: 
+
+Function_1 efficiency: 
+
+Reference:
+https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
+
+https://www.youtube.com/watch?v=kIUtEsaHpJU
 
 ## Timeline
 For the first week, since the data is simple, we may first extract the subset of the whole dataset and hopefully by the end of that week, we will finish the most or all parts of the data processing and correction. 

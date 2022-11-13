@@ -44,6 +44,9 @@ https://www.youtube.com/watch?v=kIUtEsaHpJU (The brief overview of the combinati
 
 
 ### Algorithm 2: Tarjan's Algorithm
+
+Basic idea: A directed graph is strongly connected if there is a path between all pairs of vertices, and Tarjan’s algorithm only requires one DFS traversal of a graph.
+
 Function input: 
 
 Function output: 

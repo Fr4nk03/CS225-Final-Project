@@ -24,14 +24,17 @@ We will use adjacency list implemented by a 2d vector to store and update our tr
 
 The algorithms we would like to use are Tarjan's Algorithm to find strongly connected component and Pagerank to evaluate popularity of certain products in the recommendation system.
 
-Algorithm 1: Tarjan's Algorithm
+### Algorithm 1: Tarjan's Algorithm
 Function input: the undirected graph
 
 Function output: update the maximum centrality calculated for each vertex and return the product ID with the maximum centrality. If we finish our goal earlier, we may think about making a visualization of the products from high to low of their centrality scores.
 
 Function efficiency: For our undirected Graph, betweeness centrality is calculated base on the algorithm proposed by Brandes, 2001. This algorithm can calculate the score for each node in O(V+E). Since our leading question is about the most popular products in a specific connected component and these popular products can be similiar, the exact and accurate ranking of the centrality is not necessary. Hence, the approximation algorithms for betweenness centrality that consistently and efficiently discover the highest betweenness vertices may be more useful than computing the centrality score for every vertex exactly. We will try our best to reach our expected space efficiency which is less than O(V^2). 
 
-Algorithm 2: Pagerank Algorithm
+Reference:
+https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
+
+### Algorithm 2: Pagerank Algorithm
 Function_1 input: a strongly connected component
 
 Function_1 output: 
@@ -39,8 +42,6 @@ Function_1 output:
 Function_1 efficiency: 
 
 Reference:
-https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
-
 https://www.youtube.com/watch?v=kIUtEsaHpJU
 
 ## Timeline

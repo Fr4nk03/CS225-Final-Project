@@ -58,7 +58,7 @@ Function efficiency:
 - Memory: The worst case space complexity of Tarjan's algorithm is O(|V|) where V is the number of vertices in the directed graph. This happens when the whole graph is one giant strongly connected component.
 
 Reference:
-https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
+[https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/](https://www.youtube.com/watch?v=wUgWX0nc4NY)
 
 
 

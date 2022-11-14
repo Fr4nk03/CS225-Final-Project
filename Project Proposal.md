@@ -53,9 +53,9 @@ Function output:
 
 Function efficiency: 
 
-- Time Complexity: Since Tarjan's Algorithm only requires one DFS traversal over the graph, it has an O(V+E) linear time complexity.
+- Time Complexity: Since Tarjan's Algorithm only requires one DFS traversal over the graph to find all SCC's, it has an linear O(V+E) time complexity, where V represents the number of vertices in the directed graph, and E represents the number of edges in the directed grpah.
 
-- Memory: 
+- Memory: The worst case space complexity of Tarjan's algorithm is O(|V|) where V is the number of vertices in the directed graph. This happens when the whole graph is one giant strongly connected component.
 
 Reference:
 https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/

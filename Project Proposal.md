@@ -53,6 +53,10 @@ Function output:
 
 Function efficiency: 
 
+- Time Complexity: Since Tarjan's Algorithm only requires one DFS traversal over the graph, it has an O(V+E) linear time complexity.
+
+- Memory: 
+
 Reference:
 https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
 

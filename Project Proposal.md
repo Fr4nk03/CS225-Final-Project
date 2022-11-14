@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=kIUtEsaHpJU (The brief overview of the combinati
 
 ### Algorithm 2: Tarjan's Algorithm
 
-Basic idea: A strongly connected component (SCC) is the portion of a directed graph in which there is a path from each vertex to another vertex, and Tarjan’s algorithm can find all SCC's in a graph with one DFS traversal.
+Basic idea: A strongly connected component (SCC) is the portion of a directed graph in which there is a path from each vertex to another vertex, and Tarjan’s algorithm can find all SCC's in a directed graph with one DFS traversal.
 
 Function input: A directed graph.
 

@@ -60,6 +60,8 @@ Function efficiency:
 Reference:
 [https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/](https://www.youtube.com/watch?v=wUgWX0nc4NY)
 
+https://www.youtube.com/watch?v=wUgWX0nc4NY
+
 
 
 ## Timeline

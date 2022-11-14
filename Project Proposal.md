@@ -32,7 +32,7 @@ Basic idea: When the transition matrix reaches to its steady state, we now have 
 
 Function input: A 2D dynamic array list<int>.
 
-Function output: There is no output to this funciton.
+Function output: There is no output to this funciton because we will update directly to the fields of node.
 
 Function efficiency: 
 - Time Complexity: Each iteration requires one vector-matrix multiplication, which on average requires O(n^2) time complexity, where n is the size of the 2d adjacency list.

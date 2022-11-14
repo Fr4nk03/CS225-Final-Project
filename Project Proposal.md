@@ -30,9 +30,9 @@ The algorithms we would like to use are Pagerank to evaluate popularity of the p
   
 Basic idea: When the transition matrix reaches to its steady state, we now have the final pagerank value and then we assign it to each node. We will also update the ranking into the node field so that when working on finding the most popular item in a group, we only need to find the node with the least ranking.
 
-Function input: 2d dynamic array list<int> 
+Function input: A 2D dynamic array list<int>.
 
-Function output: void
+Function output: There is no output to this funciton.
 
 Function efficiency: 
 - Time Complexity: Each iteration requires one vector-matrix multiplication, which on average requires O(n^2) time complexity, where n is the size of the 2d adjacency list.
@@ -45,11 +45,11 @@ https://www.youtube.com/watch?v=kIUtEsaHpJU (The brief overview of the combinati
 
 ### Algorithm 2: Tarjan's Algorithm
 
-Basic idea: A strongly connected component is the portion of a directed graph in which there is a path from each vertex to another vertex, and Tarjan’s algorithm can find all SCC's in a graph with one DFS traversal.
+Basic idea: A strongly connected component (SCC) is the portion of a directed graph in which there is a path from each vertex to another vertex, and Tarjan’s algorithm can find all SCC's in a graph with one DFS traversal.
 
-Function input: 
+Function input: A directed graph.
 
-Function output: 
+Function output: A set of strongly connected components.
 
 Function efficiency: 
 

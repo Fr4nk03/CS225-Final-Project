@@ -5,15 +5,15 @@
 using namespace std;
 
 struct Edge {
-    Edge(string label, Vertex dest, int weight) : label(label), dest(dest), weight(weight) {};
+    Edge(string label, Product dest, int weight) : label(label), dest(dest), weight(weight) {};
     string label;
-    Vertex dest;
+    Product dest;
     int weight;
 };
 
-//node for adjacency list 
-struct Vertex {
-    Vertex(string label, int val, int pageRank) : label(label), val(val), pageRank(pageRank) {};
+//Product node for adjacency list 
+struct Product {
+    Product(string label, int val, int pageRank) : label(label), val(val), pageRank(pageRank) {};
     string label;
     int val, pageRank;
 };
@@ -21,8 +21,8 @@ struct Vertex {
 class Graph {
     public:
         Graph() = default;
-        void addVertex(Vertex v);
-        void addEdge(Vertex from, Vertex to, string label, int weight);
+        void addProduct(Product v);
+        void addEdge(Product from, Product to, string label, int weight);
     private:
-        unordered_map<Vertex, vector<Edge>> vertices;
+        unordered_map<Product, vector<Edge>> vertices;
 };

@@ -5,7 +5,7 @@
 using namespace std;
 
 struct Edge {
-    Edge(string label, Vertex dest, int weight) : label(label), dest(dest), weight(weight) {}
+    Edge(string label, Vertex dest, int weight) : label(label), dest(dest), weight(weight) {};
     string label;
     Vertex dest;
     int weight;
@@ -13,6 +13,7 @@ struct Edge {
 
 //node for adjacency list 
 struct Vertex {
+    Vertex(string label, int val, int pageRank) : label(label), val(val), pageRank(pageRank) {};
     string label;
     int val, pageRank;
 };

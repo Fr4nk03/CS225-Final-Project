@@ -1,9 +1,9 @@
 #include "Graph.h"
 
-void Graph::addVertex(Vertex v) {
+void Graph::addProduct(Product v) {
     vertices[v] = vector<Edge>();
 }
 
-void Graph::addEdge(Vertex from, Vertex to, string label, int weight) {
+void Graph::addEdge(Product from, Product to, string label, int weight) {
     vertices[from].push_back(Edge(label, to, weight));
 }

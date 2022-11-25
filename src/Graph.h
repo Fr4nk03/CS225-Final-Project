@@ -7,18 +7,19 @@
 
 using namespace std;
 
-//Product node for adjacency list 
+// Product node for adjacency list 
 struct Product {
     Product(string label, int val, int pageRank) : label(label), val(val), pageRank(pageRank) {};
     string label;
     int val, pageRank;
 
-    bool operator==(const Product& p) const
-    {
+    // Comparison function for unordered_map
+    bool operator==(const Product& p) const {
         return label == p.label && val == p.val && pageRank == p.pageRank;
     }
 };
 
+// Hash function for unordered_map
 class MyHashFunction {
     public:
         size_t operator()(const Product& p) const
@@ -33,8 +34,6 @@ struct Edge {
     Product dest;
     int weight;
 };
-
-
 
 class Graph {
     public:

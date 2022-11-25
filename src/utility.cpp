@@ -37,9 +37,12 @@ V2D file_to_V2D(const string & filename) {
     for (auto i = 0; i < row; i++) {
         vector<string> row;
         SplitString(field[i], '\t', row);
-        if (stoi(row[0]) < 100000 && stoi(row[1]) < 100000) {
-            toReturn.push_back(row);
+        if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
+            if (stoi(row[0]) < 100000 && stoi(row[1]) < 100000) { //limit the size of the dataset
+                toReturn.push_back(row);
+            }
         }
+        
     }
 
     // test for output:

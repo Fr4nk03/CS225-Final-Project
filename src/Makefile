@@ -1,5 +1,7 @@
 EXENAME = main
-OBJS = main.o Graph.o
+# OBJS = main.o Graph.o
+OBJS = main.o 
+OBJS_DIR = .objs
 
 CXX = clang++
 CXXFLAGS = -std=c++0x -c -g -O0 -Wall -Wextra
@@ -14,8 +16,8 @@ $(EXENAME): $(OBJS)
 main.o: main.cpp
 	$(CXX) $< $(CXXFLAGS)
 
-Graph.o: Graph.cpp Graph.h
-	$(CXX) $< $(CXXFLAGS)
+# Graph.o: Graph.cpp Graph.h
+# 	$(CXX) $< $(CXXFLAGS)
 
 clean:
 	-rm -f *.o $(EXENAME)

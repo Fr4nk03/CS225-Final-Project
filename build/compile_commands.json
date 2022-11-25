@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp",
+  "file": "/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/36ja.cpp",
+  "file": "/root/.vscode-server/data/User/History/-55158e15/36ja.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp",
+  "file": "/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o -c /usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp",
+  "file": "/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o -c /usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp",
+  "file": "/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /workspaces/CS225-Final-Project/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/workspaces/CS225-Final-Project/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/main.cpp.o -c /workspaces/CS225-Final-Project/main.cpp",
+  "file": "/workspaces/CS225-Final-Project/main.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/src/Graph.cpp.o -c /workspaces/CS225-Final-Project/src/Graph.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/Graph.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/src/main.cpp.o -c /workspaces/CS225-Final-Project/src/main.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/main.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/src/utility.cpp.o -c /workspaces/CS225-Final-Project/src/utility.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/utility.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build/src",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/Graph.cpp.o -c /workspaces/CS225-Final-Project/src/Graph.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/Graph.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build/src",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/main.cpp.o -c /workspaces/CS225-Final-Project/src/main.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/main.cpp"
+},
+{
+  "directory": "/workspaces/CS225-Final-Project/build/src",
+  "command": "/usr/bin/clang++  -I/workspaces/CS225-Final-Project/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/utility.cpp.o -c /workspaces/CS225-Final-Project/src/utility.cpp",
+  "file": "/workspaces/CS225-Final-Project/src/utility.cpp"
+}
+]

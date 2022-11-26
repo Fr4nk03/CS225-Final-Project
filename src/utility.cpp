@@ -26,7 +26,7 @@ int SplitString(const std::string & str1, char sep, std::vector<std::string> &fi
 }
 
 //convert to V2D while cleaning the data
-V2D file_to_V2D(const string & filename) {
+V2D file_to_V2D(const string & filename, const int size) {
     string fileStr = file_to_string(filename);
     // string b = to_string(fileStr[1] == '\t'); // tab
     // cout << b << endl;
@@ -38,14 +38,15 @@ V2D file_to_V2D(const string & filename) {
         vector<string> row;
         SplitString(field[i], '\t', row);
         if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
-            if (stoi(row[0]) < 100000 && stoi(row[1]) < 100000) { //limit the size of the dataset
+            if (stoi(row[0]) + stoi(row[1]) < size) { //limit the size of the dataset
                 toReturn.push_back(row);
             }
         }
         
     }
-
+    
     // test for output:
+    // cout << "size: " + to_string(toReturn.size()) << endl;
     // for (size_t i = 0; i < 10; i++) {
     //     cout << "product from: " + toReturn[i][0] + " " + "product to: " + toReturn[i][1] << endl;
     // }

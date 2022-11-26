@@ -15,5 +15,5 @@ int SplitString(const string & str1, char sep, vector<string> &fields);
 
 typedef vector<vector<string> > V2D; 
 
-//simultaneously cleaning up products with id > 10000
-V2D file_to_V2D(const string & filename);
+//simultaneously cleaning up products with id < size
+V2D file_to_V2D(const string & filename, const int size);

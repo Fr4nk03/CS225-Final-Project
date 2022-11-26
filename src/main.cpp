@@ -18,21 +18,37 @@ int main() {
     // }
     
 
-    //small network
-    V2D networkSmall = file_to_V2D("../amazon-ungraph-small.txt");
-    // cout << "10" + "\t" + "20" << endl;
-    // cout << "10\t20"[2] << endl;
+    // //small network
+    // V2D networkSmall = file_to_V2D("../amazon-ungraph-small.txt", 10000);
+    // // cout << "10" + "\t" + "20" << endl;
+    // // cout << "10\t20"[2] << endl;
 
-    cout << "Number of Products: " + to_string(networkSmall.size()) << endl;
-    for (size_t i = 0; i < networkSmall.size(); i++) {
-        cout << "product from: " + networkSmall[i][0] + " " + "product to: " + networkSmall[i][1] << endl;
-    }
+    // cout << "Number of Edges: " + to_string(networkSmall.size()) << endl;
+    // for (size_t i = 0; i < networkSmall.size(); i++) {
+    //     cout << "product from: " + networkSmall[i][0] + " " + "product to: " + networkSmall[i][1] << endl;
+    // }
     
-    //mid network
-    V2D networkMid = file_to_V2D("../amazon-ungraph-middle.txt");
+    // //mid network
+    // V2D networkMid = file_to_V2D("../amazon-ungraph-middle.txt", 100000);
 
-    cout << "Number of Products: " + to_string(networkMid.size()) << endl;
-    for (size_t i = 0; i < networkMid.size(); i++) {
-        cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
+    // cout << "Number of Edges: " + to_string(networkMid.size()) << endl;
+    // for (size_t i = 0; i < networkMid.size(); i++) {
+    //     cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
+    // }
+
+    // // mixed spacing network
+    // V2D networkMixed = file_to_V2D("../amazon-ungraph-mixed.txt", 10000000);
+   
+    // cout << "Number of Edges: " + to_string(networkMixed.size()) << endl;
+    // for (size_t i = 0; i < networkMixed.size(); i++) {
+    //     cout << "product from: " + networkMixed[i][0] + " " + "product to: " + networkMixed[i][1] << endl;
+    // }
+
+    //whole network
+    V2D networkLarge = file_to_V2D("../amazon-ungraph.txt", 10000);
+
+    // cout << "Number of Edges: " + to_string(networkLarge.size()) << endl;
+    for (size_t i = 0; i < 2; i++) {
+        cout << "product from: " + networkLarge[i][0] + " " + "product to: " + networkLarge[i][1] << endl;
     }
 }

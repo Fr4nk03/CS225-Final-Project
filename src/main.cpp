@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 #include "utility.h"
 
 using namespace std;
@@ -16,7 +17,9 @@ int main() {
     // for (auto i = 0; i < 2; i++) {
     //     cout << field[i] << endl;
     // }
-    
+    // string a = "10";
+    // // cout << typeid(a).name() << endl; //print i
+    // cout << to_string(a.empty()) << endl;
 
     // //small network
     // V2D networkSmall = file_to_V2D("../amazon-ungraph-small.txt", 10000);
@@ -44,11 +47,11 @@ int main() {
     //     cout << "product from: " + networkMixed[i][0] + " " + "product to: " + networkMixed[i][1] << endl;
     // }
 
-    //whole network
+    // whole network
     V2D networkLarge = file_to_V2D("../amazon-ungraph.txt", 10000);
 
-    // cout << "Number of Edges: " + to_string(networkLarge.size()) << endl;
-    for (size_t i = 0; i < 2; i++) {
+    cout << "Number of Edges: " + to_string(networkLarge.size()) << endl;
+    for (size_t i = 0; i < networkLarge.size(); i++) {
         cout << "product from: " + networkLarge[i][0] + " " + "product to: " + networkLarge[i][1] << endl;
     }
 }

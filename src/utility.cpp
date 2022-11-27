@@ -33,16 +33,21 @@ V2D file_to_V2D(const string & filename, const int size) {
     V2D toReturn;
     vector<string> field;
     int row = SplitString(fileStr, '\n', field);
+    // cout << "Reach here!!!" << endl;
 
     for (auto i = 0; i < row; i++) {
         vector<string> row;
-        SplitString(field[i], '\t', row);
-        if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
-            if (stoi(row[0]) + stoi(row[1]) < size) { //limit the size of the dataset
-                toReturn.push_back(row);
+        SplitString(field[i], '\t', row); //seperated by tab
+        // cout << "Trial " + to_string(i) + "; Reach Line: 39 number: " + row[0] + " " + row[1]<< endl;
+
+        //data cleaning
+        if (!(row[0].empty() || row[1].empty())) { //ensure that string is not empty
+            if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
+                if (stoi(row[0]) + stoi(row[1]) < size) { //limit the size of the dataset
+                    toReturn.push_back(row);
+                }
             }
         }
-        
     }
     
     // test for output:

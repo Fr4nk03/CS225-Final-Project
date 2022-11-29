@@ -40,9 +40,9 @@ class Graph {
         Graph();
         void addProduct(Product v);
         void addEdge(Product from, Product to, string label, int weight);
-        map<Product, vector<Edge>> getGraph() {
-            return vertices;
-        }
+        map<Product, vector<Edge>> getGraph();
+        map<int, vector<Product>> getSCCs(vector<int> lowLink);
+
     private:
         map<Product, vector<Edge>> vertices;
 };

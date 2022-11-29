@@ -17,10 +17,12 @@ vector<int> findSCCs(map<Product, vector<Edge>> graph) {
 }
 
 void dfs(int idx, map<Product, vector<Edge>> graph, vector<int> lowLink, vector<bool> visited) {
-    
+
 }
 
-
+map<int, vector<Product>> getSCCs(vector<int> lowLink) {
+    
+}
 
 
 

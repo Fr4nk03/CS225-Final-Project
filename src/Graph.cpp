@@ -1,14 +1,14 @@
 #include "Graph.h"
 #include "tarjan.h"
 #include "utility.h"
-
-Graph::Graph() {}
+#include <iterator>
 
 Graph::Graph() {}
 
 void Graph::addProduct(Product v) {
-    v.id = vertices.size();
-    vertices[v] = vector<Edge>();
+    // v.id = vertices.size();
+    // vertices[v] = vector<Edge>();
+    vertices.insert(pair<Product, vector<Edge>>(v, vector<Edge>()));
 }
 
 void Graph::addEdge(Product from, Product to, int label) {
@@ -19,13 +19,17 @@ void Graph::addEdge(Product from, Product to, int label) {
 void Graph::convertV2D(const string & filename, const int size) {
     V2D network = file_to_V2D(filename, size);
     for (size_t i = 0; i < network.size(); i++) {
+        cout << to_string(i) << endl;
         Product from(stoi(network[i][0])); Product to(stoi(network[i][1]));
+        cout << "REACH ln21 " + to_string(from.label) + " " + to_string(to.label) << endl;
+        cout << to_string(vertices.find(from) == vertices.end()) << endl;
         if (vertices.find(from) == vertices.end()) {
             addProduct(from);
+            cout << "ln24: " + to_string(from.label) << endl;
         }
-        if (vertices.find(to) == vertices.end()) {
-            addProduct(to);
-        }
+        // if (vertices.find(to) == vertices.end()) {
+        //     addProduct(to);
+        // }
         addEdge(from, to, from.label);
     }
 }
@@ -33,6 +37,7 @@ void Graph::convertV2D(const string & filename, const int size) {
 map<Product, vector<Edge>> Graph::getGraph() {
     return vertices;
 }
+
 
 // map<int, vector<Product>> Graph::getSCCs() {
 //     vector<int> lowLink = findSCCs(vertices);
@@ -44,13 +49,3 @@ map<Product, vector<Edge>> Graph::getGraph() {
 //     }
 //     return map;
 // }
-map<int, vector<Product>> Graph::getSCCs() {
-    vector<int> lowLink = findSCCs(vertices);
-    map<int, vector<Product>> map;
-    auto it = vertices.begin();
-    for (unsigned int i = 0; i < lowLink.size(); i++) {
-        map[lowLink[i]].push_back(it->first);
-        it++;
-    }
-    return map;
-}

@@ -32,12 +32,12 @@ int main() {
     // }
     
     // //mid network
-    // V2D networkMid = file_to_V2D("../data/amazon-ungraph-middle.txt", 100000);
+    V2D networkMid = file_to_V2D("../data/amazon-ungraph-middle.txt", 10000);
 
-    // cout << "Number of Edges: " + to_string(networkMid.size()) << endl;
-    // for (size_t i = 0; i < networkMid.size(); i++) {
-    //     cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
-    // }
+    cout << "Number of Edges: " + to_string(networkMid.size()) << endl;
+    for (size_t i = 0; i < networkMid.size(); i++) {
+        cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
+    }
 
     // // mixed spacing network
     // V2D networkMixed = file_to_V2D("../data/amazon-ungraph-mixed.txt", 10000000);
@@ -48,7 +48,7 @@ int main() {
     // }
 
     // whole network
-    // V2D networkLarge = file_to_V2D("../data/amazon-ungraph.txt", 10000);
+    // V2D networkLarge = file_to_V2D("../data/amazon-ungraph.txt", 1000);
 
     // cout << "Number of Edges: " + to_string(networkLarge.size()) << endl;
     // for (size_t i = 0; i < networkLarge.size(); i++) {
@@ -57,12 +57,18 @@ int main() {
 
     //test for Graph
     Graph whole;
-    // whole.convertV2D("../data/amazon-ungraph.txt", 10000);
-    // map<Product, vector<Edge>> connections = whole.getGraph();
-    // map<Product, vector<Edge>>::iterator itr = connections.begin();
-    // cout << "product from: " + to_string(itr->first.id) + " with edges: ";
-    // for (size_t i = 0; i < itr->second.size(); i++) {
-    //     cout << to_string(itr->second[i].dest.id) + " " << endl;
-    // }
+    whole.convertV2D("../data/amazon-ungraph-middle.txt", 10000);
+    map<Product, vector<Edge>> connections = whole.getGraph();
+    map<Product, vector<Edge>>::iterator itr;
+    //  = connections.begin();
+    for (itr = connections.begin(); itr != connections.end(); itr++) {
+        cout << "product from: " + to_string(itr->first.label) + " with edges: ";
+        for (size_t i = 0; i < itr->second.size(); i++) {
+            cout << to_string((itr->second)[i].dest.label) + " ";
+            if (i == itr->second.size() - 1) {
+                cout << " end" << endl;
+            }
+        }
+    }
 
 }

@@ -22,4 +22,5 @@ map<int, vector<Product>> Graph::getSCCs(vector<int> lowLink) {
         map[lowLink[i]].push_back(it->first);
         it++;
     }
+    return map;
 }

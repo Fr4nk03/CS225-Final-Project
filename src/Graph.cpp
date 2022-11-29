@@ -30,6 +30,7 @@ map<Product, vector<Edge>> Graph::getGraph() {
     return vertices;
 }
 
+<<<<<<< HEAD
 // map<int, vector<Product>> Graph::getSCCs() {
 //     vector<int> lowLink = findSCCs(vertices);
 //     map<int, vector<Product>> map;
@@ -40,3 +41,15 @@ map<Product, vector<Edge>> Graph::getGraph() {
 //     }
 //     return map;
 // }
+=======
+map<int, vector<Product>> Graph::getSCCs(vector<int> lowLink) {
+    vector<int> lowLink = findSCCs(vertices);
+    map<int, vector<Product>> map;
+    auto it = vertices.begin();
+    for (unsigned int i = 0; i < lowLink.size(); i++) {
+        map[lowLink[i]].push_back(it->first);
+        it++;
+    }
+    return map;
+}
+>>>>>>> d92a3a0fa88a2549f0e896453987c04672c0559a

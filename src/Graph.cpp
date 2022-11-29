@@ -1,6 +1,8 @@
 #include "Graph.h"
 #include "tarjan.h"
 
+Graph::Graph() {}
+
 void Graph::addProduct(Product v) {
     v.id = vertices.size();
     vertices[v] = vector<Edge>();

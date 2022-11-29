@@ -20,10 +20,6 @@ void dfs(int idx, map<Product, vector<Edge>> graph, vector<int> lowLink, vector<
 
 }
 
-map<int, vector<Product>> getSCCs(vector<int> lowLink) {
-    
-}
-
 
 
 

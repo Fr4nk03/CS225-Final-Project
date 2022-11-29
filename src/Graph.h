@@ -39,6 +39,9 @@ class Graph {
         Graph();
         void addProduct(Product v);
         void addEdge(Product from, Product to, string label, int weight);
+        unordered_map<Product, vector<Edge>, MyHashFunction> getGraph() {
+            return vertices;
+        }
     private:
         unordered_map<Product, vector<Edge>, MyHashFunction> vertices;
 };

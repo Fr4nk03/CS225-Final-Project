@@ -1,14 +1,16 @@
 #include "Graph.h"
 #include "tarjan.h"
 #include "utility.h"
-#include <iterator>
+// #include <iterator>
 
 Graph::Graph() {}
 
 void Graph::addProduct(Product v) {
     // v.id = vertices.size();
     // vertices[v] = vector<Edge>();
-    vertices.insert(pair<Product, vector<Edge>>(v, vector<Edge>()));
+    if (vertices.find(v) != vertices.end()) {
+        vertices.insert(pair<Product, vector<Edge>>(v, vector<Edge>()));
+    }
 }
 
 void Graph::addEdge(Product from, Product to, int label) {

@@ -1,6 +1,6 @@
 EXENAME = main
 # OBJS = main.o Graph.o
-OBJS = main.o utility.o Graph.o 
+OBJS = main.o utility.o Graph.o tarjan.o
 OBJS_DIR = .objs
 
 CXX = clang++
@@ -20,6 +20,9 @@ Graph.o: Graph.cpp Graph.h
 	$(CXX) $< $(CXXFLAGS)
 
 utility.o: utility.cpp utility.h
+	$(CXX) $< $(CXXFLAGS)
+
+tarjan.o: tarjan.cpp tarjan.h
 	$(CXX) $< $(CXXFLAGS)
 
 clean:

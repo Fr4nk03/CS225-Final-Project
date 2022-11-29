@@ -25,35 +25,35 @@ int SplitString(const std::string & str1, char sep, std::vector<std::string> &fi
     return fields.size();
 }
 
-//convert to V2D while cleaning the data
-V2D file_to_V2D(const string & filename, const int size) {
-    string fileStr = file_to_string(filename);
-    // string b = to_string(fileStr[1] == '\t'); // tab
-    // cout << b << endl;
-    V2D toReturn;
-    vector<string> field;
-    int row = SplitString(fileStr, '\n', field);
-    // cout << "Reach here!!!" << endl;
+// //convert to V2D while cleaning the data
+// V2D file_to_V2D(const string & filename, const int size) {
+//     string fileStr = file_to_string(filename);
+//     // string b = to_string(fileStr[1] == '\t'); // tab
+//     // cout << b << endl;
+//     V2D toReturn;
+//     vector<string> field;
+//     int row = SplitString(fileStr, '\n', field);
+//     // cout << "Reach here!!!" << endl;
 
-    for (auto i = 0; i < row; i++) {
-        vector<string> row;
-        SplitString(field[i], '\t', row); //seperated by tab
-        // cout << "Trial " + to_string(i) + "; Reach Line: 39 number: " + row[0] + " " + row[1]<< endl;
+//     for (auto i = 0; i < row; i++) {
+//         vector<string> row;
+//         SplitString(field[i], '\t', row); //seperated by tab
+//         // cout << "Trial " + to_string(i) + "; Reach Line: 39 number: " + row[0] + " " + row[1]<< endl;
 
-        //data cleaning
-        if (!(row[0].empty() || row[1].empty())) { //ensure that string is not empty
-            if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
-                if (stoi(row[0]) + stoi(row[1]) < size) { //limit the size of the dataset
-                    toReturn.push_back(row);
-                }
-            }
-        }
-    }
+//         //data cleaning
+//         if (!(row[0].empty() || row[1].empty())) { //ensure that string is not empty
+//             if (stoi(row[0]) > 0 && stoi(row[1]) > 0) { //positive id required
+//                 if (stoi(row[0]) + stoi(row[1]) < size) { //limit the size of the dataset
+//                     toReturn.push_back(row);
+//                 }
+//             }
+//         }
+//     }
     
-    // test for output:
-    // cout << "size: " + to_string(toReturn.size()) << endl;
-    // for (size_t i = 0; i < 10; i++) {
-    //     cout << "product from: " + toReturn[i][0] + " " + "product to: " + toReturn[i][1] << endl;
-    // }
-    return toReturn;
-}
+//     // test for output:
+//     // cout << "size: " + to_string(toReturn.size()) << endl;
+//     // for (size_t i = 0; i < 10; i++) {
+//     //     cout << "product from: " + toReturn[i][0] + " " + "product to: " + toReturn[i][1] << endl;
+//     // }
+//     return toReturn;
+// }

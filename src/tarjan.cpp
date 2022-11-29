@@ -6,9 +6,19 @@ vector<int> findSCCs(map<Product, vector<Edge>> graph) {
     stack<Product> stack;
     vector<bool> visited(graph.size(), false);
     vector<int> lowLink(graph.size(), 0);
+
+    for (unsigned int i = 0; i < graph.size(); i++) {
+        if (!visited[i]) {
+            dfs(i, graph, lowLink, visited);
+        }
+    }
+
+    return lowLink;
 }
 
-
+void dfs(int idx, map<Product, vector<Edge>> graph, vector<int> lowLink, vector<bool> visited) {
+    
+}
 
 
 

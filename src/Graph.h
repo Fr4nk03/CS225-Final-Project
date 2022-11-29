@@ -9,8 +9,8 @@ using namespace std;
 
 // Product node for adjacency list 
 struct Product {
-    Product(int label, int pageRank) : label(label), pageRank(pageRank) {};
-    int label;
+    Product(string label, int pageRank) : label(label), pageRank(pageRank) {};
+    string label;
     int pageRank;
     int id;
 

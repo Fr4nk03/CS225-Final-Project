@@ -18,6 +18,10 @@ struct Product {
     bool operator<(const Product& p) const {
         return id < p.id;
     }
+
+    bool operator!=(const Product& p) const {
+        return id != p.id;
+    }
 };
 
 // // Hash function for unordered_map

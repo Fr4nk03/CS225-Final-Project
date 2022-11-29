@@ -5,19 +5,45 @@ using namespace std;
 vector<int> findSCCs(map<Product, vector<Edge>> graph) {
     stack<Product> stack;
     vector<bool> visited(graph.size(), false);
+    vector<bool> onStack(graph.size(), false);
     vector<int> lowLink(graph.size(), 0);
 
+    auto it = graph.begin();
     for (unsigned int i = 0; i < graph.size(); i++) {
         if (!visited[i]) {
-            dfs(stack, i, graph, lowLink, visited);
+            dfs(stack, it->first, graph, lowLink, visited, onStack);
         }
+        it++;
     }
 
     return lowLink;
 }
 
-void dfs(stack<Product> stack, int idx, map<Product, vector<Edge>> graph, vector<int> lowLink, vector<bool> visited) {
+void dfs(stack<Product>& stack, Product p, map<Product, vector<Edge>> graph, vector<int>& lowLink, vector<bool>& visited, vector<bool> onStack) {
+    stack.push(p);
+    visited[p.id] = true;
+    onStack[p.id] = true;
+    lowLink[p.id] = p.id;
 
+    for (Edge i: graph[p]) {
+        Product dest = i.dest;
+        if (!visited[dest.id]) {
+            dfs(stack, dest, graph, lowLink, visited, onStack);
+        }
+        if (onStack[dest.id]) {
+            lowLink[p.id] = min(lowLink[p.id], lowLink[dest.id]);
+        }
+    }
+
+    if (p.id == lowLink[p.id]) {
+        while (stack.top() != p) {
+            onStack[stack.top().id] = false;
+            lowLink[stack.top().id] = p.id;
+            stack.pop();
+        }
+        onStack[p.id] = false;
+        stack.pop();
+    }
 }
 
 

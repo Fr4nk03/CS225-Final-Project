@@ -7,6 +7,14 @@ vector<int> findSCCs(Graph g) {
     unordered_map<Product, int, MyHashFunction> lowLink;
     stack<Product> stack;
 }
+
+
+
+
+
+
+
+
 /*private member
 
 two

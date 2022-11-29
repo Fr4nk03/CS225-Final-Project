@@ -4,4 +4,4 @@
 
 #include <stack>
 
-std::vector<int> findSCCs(Graph g);
+std::vector<int> findSCCs(map<Product, vector<Edge>> graph);

@@ -2,8 +2,6 @@
 
 using namespace std;
 
-vector<int> findSCCs(Graph g) {
-    unordered_map<Product, bool, MyHashFunction> visited;
-    unordered_map<Product, int, MyHashFunction> lowLink;
+vector<int> findSCCs(map<Product, vector<Edge>> graph) {
     stack<Product> stack;
 }

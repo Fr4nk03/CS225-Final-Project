@@ -12,20 +12,21 @@ struct Product {
     Product(int label, int pageRank) : label(label), pageRank(pageRank) {};
     int label;
     int pageRank;
+    int id;
 
-    // Comparison function for unordered_map
-    bool operator==(const Product& p) const {
-        return label == p.label && pageRank == p.pageRank;
+    // Comparison function for map
+    bool operator<(const Product& p) const {
+        return id < p.id;
     }
 };
 
-// Hash function for unordered_map
-class MyHashFunction {
-    public:
-        size_t operator()(const Product& p) const {
-            return p.label;
-        }
-};
+// // Hash function for unordered_map
+// class MyHashFunction {
+//     public:
+//         size_t operator()(const Product& p) const {
+//             return p.label;
+//         }
+// };
 
 struct Edge {
     Edge(string label, Product dest, int weight) : label(label), dest(dest), weight(weight) {};
@@ -39,9 +40,9 @@ class Graph {
         Graph();
         void addProduct(Product v);
         void addEdge(Product from, Product to, string label, int weight);
-        unordered_map<Product, vector<Edge>, MyHashFunction> getGraph() {
+        map<Product, vector<Edge>> getGraph() {
             return vertices;
         }
     private:
-        unordered_map<Product, vector<Edge>, MyHashFunction> vertices;
+        map<Product, vector<Edge>> vertices;
 };

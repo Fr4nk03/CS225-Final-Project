@@ -1,6 +1,7 @@
 #include "Graph.h"
 
 void Graph::addProduct(Product v) {
+    v.id = vertices.size();
     vertices[v] = vector<Edge>();
 }
 

@@ -1,6 +1,6 @@
 EXENAME = main
 # OBJS = main.o Graph.o
-OBJS = main.o utility.o
+OBJS = main.o utility.o Graph.o 
 OBJS_DIR = .objs
 
 CXX = clang++
@@ -16,8 +16,8 @@ $(EXENAME): $(OBJS)
 main.o: main.cpp
 	$(CXX) $< $(CXXFLAGS)
 
-# Graph.o: Graph.cpp Graph.h
-# 	$(CXX) $< $(CXXFLAGS)
+Graph.o: Graph.cpp Graph.h
+	$(CXX) $< $(CXXFLAGS)
 
 utility.o: utility.cpp utility.h
 	$(CXX) $< $(CXXFLAGS)

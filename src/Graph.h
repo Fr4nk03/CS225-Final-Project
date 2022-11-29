@@ -9,10 +9,11 @@ using namespace std;
 
 // Product node for adjacency list 
 struct Product {
-    Product(string label, int pageRank) : label(label), pageRank(pageRank) {};
-    string label;
+    Product(int label) : label(label) {};
+    Product(int label, int pageRank) : label(label), pageRank(pageRank) {};
+    int label; //product id
     int pageRank;
-    int id;
+    int id; //used in tarjan's
 
     // Comparison function for map
     bool operator<(const Product& p) const {
@@ -33,19 +34,19 @@ struct Product {
 // };
 
 struct Edge {
-    Edge(string label, Product dest, int weight) : label(label), dest(dest), weight(weight) {};
-    string label;
+    Edge(int label, Product dest) : label(label), dest(dest) {};
+    int label;
     Product dest;
-    int weight;
 };
 
 class Graph {
     public:
         Graph();
         void addProduct(Product v);
-        void addEdge(Product from, Product to, string label, int weight);
+        void addEdge(Product from, Product to, int label);
+        void convertV2D(const string & filename, const int size);
         map<Product, vector<Edge>> getGraph();
-        map<int, vector<Product>> getSCCs(vector<int> lowLink);
+        // map<int, vector<Product>> getSCCs();
 
     private:
         map<Product, vector<Edge>> vertices;

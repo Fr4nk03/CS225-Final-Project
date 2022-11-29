@@ -15,6 +15,10 @@ struct Product {
     int pageRank;
     int id; //used in tarjan's
 
+    bool operator==(const Product& p) const {
+        return label == p.label;
+    }
+
     // Comparison function for map
     bool operator<(const Product& p) const {
         return id < p.id;

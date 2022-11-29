@@ -19,10 +19,11 @@ void Graph::addEdge(Product from, Product to, int label) {
 void Graph::convertV2D(const string & filename, const int size) {
     V2D network = file_to_V2D(filename, size);
     for (size_t i = 0; i < network.size(); i++) {
-        cout << to_string(i) << endl;
+        cout << "ln: " + to_string(i) << endl;
         Product from(stoi(network[i][0])); Product to(stoi(network[i][1]));
-        cout << "REACH ln21 " + to_string(from.label) + " " + to_string(to.label) << endl;
-        cout << to_string(vertices.find(from) == vertices.end()) << endl;
+        // cout << "REACH ln21 " + to_string(from.label) + " " + to_string(to.label) << endl;
+        // cout << to_string(vertices.find(from) == vertices.end()) << endl;
+        cout << to_string(from == to) << endl;
         if (vertices.find(from) == vertices.end()) {
             addProduct(from);
             cout << "ln24: " + to_string(from.label) << endl;
@@ -30,6 +31,7 @@ void Graph::convertV2D(const string & filename, const int size) {
         // if (vertices.find(to) == vertices.end()) {
         //     addProduct(to);
         // }
+        cout << "REACH ln33 " + to_string(from.label) << endl;
         addEdge(from, to, from.label);
     }
 }

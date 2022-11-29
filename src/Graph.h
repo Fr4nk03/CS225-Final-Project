@@ -9,7 +9,7 @@ using namespace std;
 
 // Product node for adjacency list 
 struct Product {
-    Product(int label, int val, int pageRank) : label(label), pageRank(pageRank) {};
+    Product(int label, int pageRank) : label(label), pageRank(pageRank) {};
     int label;
     int pageRank;
 
@@ -22,8 +22,7 @@ struct Product {
 // Hash function for unordered_map
 class MyHashFunction {
     public:
-        size_t operator()(const Product& p) const
-        {
+        size_t operator()(const Product& p) const {
             return p.label;
         }
 };

@@ -32,12 +32,12 @@ int main() {
     // }
     
     // //mid network
-    V2D networkMid = file_to_V2D("../data/amazon-ungraph-middle.txt", 10000);
+    // V2D networkMid = file_to_V2D("../data/amazon-ungraph-middle.txt", 10000);
 
-    cout << "Number of Edges: " + to_string(networkMid.size()) << endl;
-    for (size_t i = 0; i < networkMid.size(); i++) {
-        cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
-    }
+    // cout << "Number of Edges: " + to_string(networkMid.size()) << endl;
+    // for (size_t i = 0; i < networkMid.size(); i++) {
+    //     cout << "product from: " + networkMid[i][0] + " " + "product to: " + networkMid[i][1] << endl;
+    // }
 
     // // mixed spacing network
     // V2D networkMixed = file_to_V2D("../data/amazon-ungraph-mixed.txt", 10000000);
@@ -58,11 +58,11 @@ int main() {
     //test for Graph
     Graph whole;
     whole.convertV2D("../data/amazon-ungraph-middle.txt", 10000);
-    map<Product, vector<Edge>> connections = whole.getGraph();
-    map<Product, vector<Edge>>::iterator itr;
+    map<int, vector<Edge>> connections = whole.getGraph();
+    map<int, vector<Edge>>::iterator itr;
     //  = connections.begin();
     for (itr = connections.begin(); itr != connections.end(); itr++) {
-        cout << "product from: " + to_string(itr->first.label) + " with edges: ";
+        cout << "product from: " + to_string(itr->first) + " with edges: ";
         for (size_t i = 0; i < itr->second.size(); i++) {
             cout << to_string((itr->second)[i].dest.label) + " ";
             if (i == itr->second.size() - 1) {
@@ -70,5 +70,10 @@ int main() {
             }
         }
     }
-
+    // ifstream file("../data/amazon-ungraph-middle.txt");
+    // string str; 
+    // while (getline(file, str))
+    // {
+    //     cout << str << endl;
+    // }
 }

@@ -8,13 +8,14 @@ Graph::Graph() {}
 void Graph::addProduct(Product v) {
     // v.id = vertices.size();
     // vertices[v] = vector<Edge>();
-    if (vertices.find(v) != vertices.end()) {
-        vertices.insert(pair<Product, vector<Edge>>(v, vector<Edge>()));
+    if (check.find(v.label) != check.end()) {
+        check.insert(pair<int, vector<Edge>>(v.label, vector<Edge>()));
     }
 }
 
 void Graph::addEdge(Product from, Product to, int label) {
-    vertices[from].push_back(Edge(label, to));
+    // vertices[from].push_back(Edge(label, to));
+    check[from.label].push_back(Edge(label, to));
 }
 
 
@@ -23,10 +24,10 @@ void Graph::convertV2D(const string & filename, const int size) {
     for (size_t i = 0; i < network.size(); i++) {
         cout << "ln: " + to_string(i) << endl;
         Product from(stoi(network[i][0])); Product to(stoi(network[i][1]));
-        // cout << "REACH ln21 " + to_string(from.label) + " " + to_string(to.label) << endl;
+        cout << "REACH ln21 " + to_string(from.label) + " " + to_string(to.label) << endl;
         // cout << to_string(vertices.find(from) == vertices.end()) << endl;
         cout << to_string(from == to) << endl;
-        if (vertices.find(from) == vertices.end()) {
+        if (check.find(from.label) == check.end()) {
             addProduct(from);
             cout << "ln24: " + to_string(from.label) << endl;
         }
@@ -38,8 +39,9 @@ void Graph::convertV2D(const string & filename, const int size) {
     }
 }
 
-map<Product, vector<Edge>> Graph::getGraph() {
-    return vertices;
+map<int, vector<Edge>> Graph::getGraph() {
+    // return vertices;
+    return check;
 }
 
 

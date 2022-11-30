@@ -47,12 +47,13 @@ class Graph {
         Graph();
         bool addProduct(Product v);
         bool addProduct(string str);
-        void addEdge(Product from, Product to, int label);
+        bool addEdge(Product from, Product to, int label);
         void convertV2D(const string & filename, const int size);
         void fileToGraph(string filename);
         map<Product, vector<Edge>> getGraph();
         // map<int, vector<Edge>> getGraph();
         map<int, vector<Product>> getSCCs();
+        void setID(Product p, int id);
 
     private:
         map<Product, vector<Edge>> vertices;

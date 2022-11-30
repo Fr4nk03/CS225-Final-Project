@@ -6,12 +6,11 @@
 Graph::Graph() {}
 
 bool Graph::addProduct(Product v) {
-    v.id = vertices.size();
     if (vertices.find(v) == vertices.end()) {
         vertices[v] = vector<Edge>();
         return true;
     }
-    // std::cout << "Product already exist" << endl;
+    // std::cout << "Product already exists" << std::endl;
     return false;
 }
 
@@ -19,12 +18,14 @@ bool Graph::addProduct(string str) {
     return addProduct(Product(str));
 }
 
-void Graph::addEdge(Product from, Product to, int label) {
+bool Graph::addEdge(Product from, Product to, int label) {
     if (std::find(vertices[from].begin(), vertices[from].end(), Edge(label, to)) == vertices[from].end()) {
         vertices[from].push_back(Edge(label, to));
+        return true;
     }
+    std::cout << "Edge already exists" << std::endl;
+    return false;
 }
-
 
 // void Graph::convertV2D(const string & filename, const int size) {
 //     V2D network = file_to_V2D(filename, size);
@@ -51,7 +52,8 @@ map<Product, vector<Edge>> Graph::getGraph() {
 }
 
 map<int, vector<Product>> Graph::getSCCs() {
-    vector<int> lowLink = findSCCs(vertices);
+    vector<int> lowLink = findSCCs(*this);
+    // cout << "executed" << endl;
     map<int, vector<Product>> map;
     auto it = vertices.begin();
     for (unsigned int i = 0; i < lowLink.size(); i++) {
@@ -79,4 +81,13 @@ void Graph::fileToGraph(string filename) {
         addProduct(to);
         addEdge(Product(from), Product(to), 0);
     }
+}
+
+void Graph::setID(Product p, int id) {
+    auto it = vertices.find(p);
+    Product newP = it->first;
+    vector<Edge> vec = it->second;
+    newP.id = id;
+    vertices.erase(it);
+    vertices.insert(make_pair(newP, vec));
 }

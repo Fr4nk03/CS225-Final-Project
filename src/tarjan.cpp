@@ -2,7 +2,8 @@
 
 using namespace std;
 
-vector<int> findSCCs(map<Product, vector<Edge>> graph) {
+vector<int> findSCCs(Graph g) {
+    auto graph = g.getGraph();
     stack<Product> stack;
     vector<bool> visited(graph.size(), false);
     vector<bool> onStack(graph.size(), false);
@@ -10,6 +11,8 @@ vector<int> findSCCs(map<Product, vector<Edge>> graph) {
 
     auto it = graph.begin();
     for (unsigned int i = 0; i < graph.size(); i++) {
+        // cout << i << endl;
+        g.setID(it->first, i);
         if (!visited[i]) {
             dfs(stack, it->first, graph, lowLink, visited, onStack);
         }

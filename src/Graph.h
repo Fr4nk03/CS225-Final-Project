@@ -29,16 +29,17 @@ struct Product {
 };
 
 struct Edge {
-    Edge(int label, Product dest) : label(label), dest(dest) {};
+    Edge(Product from, Product to, int label) : from(from), to(to), label(label) {};
+    Product from;
+    Product to;
     int label;
-    Product dest;
 
     bool operator!=(const Edge& e) const {
-        return dest != e.dest;
+        return !(*this == e);
     }
 
     bool operator==(const Edge& e) const {
-        return dest == e.dest;
+        return from == e.from && to == e.to;
     }
 };
 
@@ -50,9 +51,10 @@ class Graph {
         bool addEdge(Product from, Product to, int label);
         void convertV2D(const string & filename, const int size);
         void fileToGraph(string filename);
-        map<Product, vector<Edge>> getGraph();
+        map<Product, vector<Edge>>& getGraph();
         // map<int, vector<Edge>> getGraph();
         map<int, vector<Product>> getSCCs();
+        void setID();
         void setID(Product p, int id);
 
     private:

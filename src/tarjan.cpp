@@ -3,16 +3,15 @@
 using namespace std;
 
 vector<int> findSCCs(Graph g) {
+    g.setID();
     auto graph = g.getGraph();
     stack<Product> stack;
     vector<bool> visited(graph.size(), false);
     vector<bool> onStack(graph.size(), false);
-    vector<int> lowLink(graph.size(), 0);
+    vector<int> lowLink(graph.size(), -1);
 
     auto it = graph.begin();
     for (unsigned int i = 0; i < graph.size(); i++) {
-        // cout << i << endl;
-        g.setID(it->first, i);
         if (!visited[i]) {
             dfs(stack, it->first, graph, lowLink, visited, onStack);
         }
@@ -29,12 +28,12 @@ void dfs(stack<Product>& stack, Product p, map<Product, vector<Edge>> graph, vec
     lowLink[p.id] = p.id;
 
     for (Edge i: graph[p]) {
-        Product dest = i.dest;
-        if (!visited[dest.id]) {
-            dfs(stack, dest, graph, lowLink, visited, onStack);
+        Product to = i.to;
+        if (!visited[to.id]) {
+            dfs(stack, to, graph, lowLink, visited, onStack);
         }
-        if (onStack[dest.id]) {
-            lowLink[p.id] = min(lowLink[p.id], lowLink[dest.id]);
+        if (onStack[to.id]) {
+            lowLink[p.id] = min(lowLink[p.id], lowLink[to.id]);
         }
     }
 

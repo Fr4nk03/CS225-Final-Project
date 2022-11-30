@@ -19,11 +19,11 @@ bool Graph::addProduct(string str) {
 }
 
 bool Graph::addEdge(Product from, Product to, int label) {
-    if (std::find(vertices[from].begin(), vertices[from].end(), Edge(label, to)) == vertices[from].end()) {
-        vertices[from].push_back(Edge(label, to));
+    if (std::find(vertices[from].begin(), vertices[from].end(), Edge(from, to, label)) == vertices[from].end()) {
+        vertices[from].push_back(Edge(from, to, label));
         return true;
     }
-    std::cout << "Edge already exists" << std::endl;
+    // std::cout << "Edge from " << from.label << " to " << to.label << " already exists" << std::endl;
     return false;
 }
 
@@ -47,13 +47,13 @@ bool Graph::addEdge(Product from, Product to, int label) {
 //     }
 // }
 
-map<Product, vector<Edge>> Graph::getGraph() {
+map<Product, vector<Edge>>& Graph::getGraph() {
     return vertices;
 }
 
 map<int, vector<Product>> Graph::getSCCs() {
     vector<int> lowLink = findSCCs(*this);
-    // cout << "executed" << endl;
+    cout << "executed" << endl;
     map<int, vector<Product>> map;
     auto it = vertices.begin();
     for (unsigned int i = 0; i < lowLink.size(); i++) {
@@ -71,23 +71,38 @@ void Graph::fileToGraph(string filename) {
         string from;
         string to;
         for (unsigned int i = 0; i < line.size(); i++) {
-            if (line[i] == '\t') {
+            if (line[i] == '\t' || line[i] == ' ') {
                 from = line.substr(0, i);
                 to = line.substr(i + 1);
                 break;
             }
         }
+        // cout << from << "->" << to << endl;
         addProduct(from);
         addProduct(to);
         addEdge(Product(from), Product(to), 0);
     }
 }
 
+void Graph::setID() {
+    cout << "start ";
+    int num = 0;
+    for (auto i: vertices) {
+        // cout << i.first.label << " ";
+        setID(i.first, num);
+        num++;
+        // cout << "full (map size: " << vertices.size() << ")" << endl;
+    }
+    cout << "end" << endl;
+}
+
 void Graph::setID(Product p, int id) {
+    // cout << id;
     auto it = vertices.find(p);
     Product newP = it->first;
     vector<Edge> vec = it->second;
     newP.id = id;
     vertices.erase(it);
     vertices.insert(make_pair(newP, vec));
+    // cout << " success";
 }

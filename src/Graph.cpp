@@ -50,14 +50,33 @@ map<Product, vector<Edge>> Graph::getGraph() {
     return vertices;
 }
 
+map<int, vector<Product>> Graph::getSCCs() {
+    vector<int> lowLink = findSCCs(vertices);
+    map<int, vector<Product>> map;
+    auto it = vertices.begin();
+    for (unsigned int i = 0; i < lowLink.size(); i++) {
+        map[lowLink[i]].push_back(it->first);
+        it++;
+    }
+    return map;
+}
 
-// map<int, vector<Product>> Graph::getSCCs() {
-//     vector<int> lowLink = findSCCs(vertices);
-//     map<int, vector<Product>> map;
-//     auto it = vertices.begin();
-//     for (unsigned int i = 0; i < lowLink.size(); i++) {
-//         map[lowLink[i]].push_back(it->first);
-//         it++;
-//     }
-//     return map;
-// }
+void Graph::fileToGraph(string filename) {
+    ifstream infile(filename);
+    string line;
+    while (getline(infile, line))
+    {
+        string from;
+        string to;
+        for (unsigned int i = 0; i < line.size(); i++) {
+            if (line[i] == '\t') {
+                from = line.substr(0, i);
+                to = line.substr(i + 1);
+                break;
+            }
+        }
+        addProduct(from);
+        addProduct(to);
+        addEdge(Product(from), Product(to), 0);
+    }
+}

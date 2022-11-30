@@ -49,9 +49,10 @@ class Graph {
         bool addProduct(string str);
         void addEdge(Product from, Product to, int label);
         void convertV2D(const string & filename, const int size);
-        // map<Product, vector<Edge>> getGraph();
-        map<int, vector<Edge>> getGraph();
-        // map<int, vector<Product>> getSCCs();
+        void fileToGraph(string filename);
+        map<Product, vector<Edge>> getGraph();
+        // map<int, vector<Edge>> getGraph();
+        map<int, vector<Product>> getSCCs();
 
     private:
         map<Product, vector<Edge>> vertices;

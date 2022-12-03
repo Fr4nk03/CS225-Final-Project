@@ -83,7 +83,8 @@ void Graph::fileToGraph(string filename) {
         addEdge(Product(from), Product(to), 0);
     }
 }
-
+///This part is wrong we could not simply set id for nodes we need to use dfs to traverse it first
+/*
 void Graph::setID() {
     cout << "start ";
     int num = 0;
@@ -95,7 +96,7 @@ void Graph::setID() {
     }
     cout << "end" << endl;
 }
-
+*/
 void Graph::setID(Product p, int id) {
     // cout << id;
     auto it = vertices.find(p);

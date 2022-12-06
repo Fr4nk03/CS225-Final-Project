@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vector<int> findSCCs(Graph g) {
+vector<int> findSCCs(Graph& g) {
     g.setID();
     auto graph = g.getGraph();
     stack<Product> stack;
@@ -12,7 +12,9 @@ vector<int> findSCCs(Graph g) {
 
     auto it = graph.begin();
     for (unsigned int i = 0; i < graph.size(); i++) {
+        // cout << "traveled to " << i << "(" << it->first.id << ") ";
         if (!visited[i]) {
+            // cout << "performing dfs on " << i << "(" << it->first.id << ") " << endl;
             dfs(stack, it->first, graph, lowLink, visited, onStack);
         }
         it++;
@@ -21,21 +23,28 @@ vector<int> findSCCs(Graph g) {
     return lowLink;
 }
 
-void dfs(stack<Product>& stack, Product p, map<Product, vector<Edge>> graph, vector<int>& lowLink, vector<bool>& visited, vector<bool> onStack) {
+void dfs(stack<Product>& stack, Product p, map<Product, vector<Edge>> graph, vector<int>& lowLink, vector<bool>& visited, vector<bool>& onStack) {
     stack.push(p);
     visited[p.id] = true;
     onStack[p.id] = true;
     lowLink[p.id] = p.id;
 
+    // cout << p.id << "...";
+
     for (Edge i: graph[p]) {
         Product to = i.to;
+        // cout << "visiting neighbor " << to.label << "(" << to.id << ")" << endl;
         if (!visited[to.id]) {
+            // cout << "not visited, performing dfs..." << endl;
             dfs(stack, to, graph, lowLink, visited, onStack);
         }
         if (onStack[to.id]) {
+            // cout << "visited, setting lowlink value..." << endl;
             lowLink[p.id] = min(lowLink[p.id], lowLink[to.id]);
         }
     }
+
+    // cout << "completed loop" << endl;
 
     if (p.id == lowLink[p.id]) {
         while (stack.top() != p) {

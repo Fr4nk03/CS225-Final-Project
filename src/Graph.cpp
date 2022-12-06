@@ -53,7 +53,6 @@ map<Product, vector<Edge>>& Graph::getGraph() {
 
 map<int, vector<Product>> Graph::getSCCs() {
     vector<int> lowLink = findSCCs(*this);
-    cout << "executed" << endl;
     map<int, vector<Product>> map;
     auto it = vertices.begin();
     for (unsigned int i = 0; i < lowLink.size(); i++) {
@@ -61,6 +60,16 @@ map<int, vector<Product>> Graph::getSCCs() {
         it++;
     }
     return map;
+}
+
+void Graph::printSCCs() {
+    for (auto i: getSCCs()) {
+        cout << "[";
+        for (auto j: i.second) {
+            cout << j.label << " ";
+        }
+        cout << "]" << endl;
+    }
 }
 
 void Graph::fileToGraph(string filename) {
@@ -85,24 +94,36 @@ void Graph::fileToGraph(string filename) {
 }
 
 void Graph::setID() {
-    cout << "start ";
     int num = 0;
     for (auto i: vertices) {
-        // cout << i.first.label << " ";
         setID(i.first, num);
         num++;
-        // cout << "full (map size: " << vertices.size() << ")" << endl;
     }
-    cout << "end" << endl;
+    for (auto& i: vertices) {
+        for (auto& j: i.second) {
+            if (j.to.id == -1) {
+                Product p = vertices.find(j.to)->first;
+                j.to.id = p.id;
+            }
+        }
+    }
 }
 
 void Graph::setID(Product p, int id) {
-    // cout << id;
     auto it = vertices.find(p);
     Product newP = it->first;
     vector<Edge> vec = it->second;
     newP.id = id;
     vertices.erase(it);
     vertices.insert(make_pair(newP, vec));
-    // cout << " success";
+}
+
+void Graph::print() {
+    for (auto i: vertices) {
+        cout << i.first.label << "'s id: " << i.first.id << ". Connected to: ";
+        for (auto j: i.second) {
+            cout << j.to.label << "(" << j.to.id << ")" << " ";
+        }
+        cout << endl;
+    }
 }

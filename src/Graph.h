@@ -8,8 +8,18 @@
 using namespace std;
 
 struct Product {
-    Product(string label) : label(label) {};
-    Product(string label, int pageRank) : label(label), pageRank(pageRank) {};
+    Product(string label) : label(label) {
+        id = -1;
+    };
+    Product(string label, int pageRank) : label(label), pageRank(pageRank) {
+        id = -1;
+    };
+    Product(const Product& p)
+    {
+        label = p.label;
+        pageRank = p.pageRank;
+        id = p.id;
+    }
     string label; //product id
     int pageRank;
     int id; //used in tarjan's
@@ -54,8 +64,10 @@ class Graph {
         map<Product, vector<Edge>>& getGraph();
         // map<int, vector<Edge>> getGraph();
         map<int, vector<Product>> getSCCs();
+        void printSCCs();
         void setID();
         void setID(Product p, int id);
+        void print();
 
     private:
         map<Product, vector<Edge>> vertices;

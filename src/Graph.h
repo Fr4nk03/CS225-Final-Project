@@ -20,9 +20,14 @@ struct Product {
         pageRank = p.pageRank;
         id = p.id;
     }
-    string label; //product id
-    int pageRank;
+    
     int id; //used in tarjan's
+
+    string label; //product id used in PageRank
+    int pageRank;
+    double PageRank() const { return pageRank; }
+    void set_PageRank(double PageRank) { pageRank = PageRank; }
+    vector<Product> links_;
 
     // Comparison function for map
     bool operator<(const Product& p) const {
@@ -69,6 +74,9 @@ class Graph {
         void setID(Product p, int id);
         void print();
 
+
+        //pageRank
+        void ComputePageRanks(double damping_factor, int num_iterations);
     private:
         map<Product, vector<Edge>> vertices;
         map<int, vector<Edge>> check;

@@ -21,6 +21,7 @@ bool Graph::addProduct(string str) {
 bool Graph::addEdge(Product from, Product to, int label) {
     if (std::find(vertices[from].begin(), vertices[from].end(), Edge(from, to, label)) == vertices[from].end()) {
         vertices[from].push_back(Edge(from, to, label));
+        from.links_.push_back(to); //used in pageRank
         return true;
     }
     // std::cout << "Edge from " << from.label << " to " << to.label << " already exists" << std::endl;
@@ -128,4 +129,49 @@ void Graph::print() {
         }
         cout << endl;
     }
+}
+
+
+// Method to compute the PageRank values for all pages in the web
+void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
+  // Initialize the PageRank values to 1.0
+//   for (const auto& page_pair : pages_) {
+//     page_pair.second->set_PageRank(1.0);
+//   }
+    for (const auto& product : vertices) {
+        // vector<Edge> edge = product.second;
+        // for (Edge e : edge) {
+        //     e.from.set_PageRank(1.0);
+        //     e.to.set_PageRank(1.0);
+        // }
+        product,set_PageRank(1.0);
+    }
+
+
+
+//   // Perform the specified number of iterations of the PageRank algorithm
+//   for (int i = 0; i < num_iterations; ++i) {
+//     // For each page in the web, compute its new PageRank value
+//     for (const auto& page_pair : pages_) {
+//       Page* page = page_pair.second;
+//       double sum = 0.0;
+//       for (Page* link : page->links()) {
+//         sum += link->PageRank() / link->links().size();
+//       }
+//       page->set_PageRank((1.0 - damping_factor) + damping_factor * sum);
+//     }
+//   }
+
+  for (int i = 0; i < num_iterations; ++i) {
+    // For each page in the web, compute its new PageRank value
+    for (const auto& product : vertices) {
+      Product p = product.first;
+      double sum = 0.0;
+      Edge edge = product.second;
+      for (Product link : p.links_) {
+        sum += link.PageRank() / link.links_.size();
+      }
+      p.set_PageRank((1.0 - damping_factor) + damping_factor * sum);
+    }
+  }
 }

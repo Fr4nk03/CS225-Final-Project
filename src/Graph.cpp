@@ -138,13 +138,14 @@ void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
 //   for (const auto& page_pair : pages_) {
 //     page_pair.second->set_PageRank(1.0);
 //   }
-    for (const auto& product : vertices) {
-        // vector<Edge> edge = product.second;
+    for (const auto& v : vertices) {
+        // vector<Edge> edge = v.second;
         // for (Edge e : edge) {
         //     e.from.set_PageRank(1.0);
         //     e.to.set_PageRank(1.0);
         // }
-        product,set_PageRank(1.0);
+        Product p = v.first;
+        p.set_PageRank(1.0);
     }
 
 
@@ -167,7 +168,6 @@ void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
     for (const auto& product : vertices) {
       Product p = product.first;
       double sum = 0.0;
-      Edge edge = product.second;
       for (Product link : p.links_) {
         sum += link.PageRank() / link.links_.size();
       }

@@ -64,7 +64,7 @@ map<int, vector<Product>> Graph::getSCCs() {
 
 void Graph::printSCCs() {
     for (auto i: getSCCs()) {
-        cout << "[";
+        cout << "[ ";
         for (auto j: i.second) {
             cout << j.label << " ";
         }

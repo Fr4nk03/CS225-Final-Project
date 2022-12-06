@@ -120,9 +120,11 @@ void Graph::setID(Product p, int id) {
 
 void Graph::print() {
     for (auto i: vertices) {
-        cout << i.first.label << "'s id: " << i.first.id << ". Connected to: ";
+        // cout << i.first.label << "'s id: " << i.first.id << ". Connected to: ";
+        cout << i.first.label << " is connected to: ";
         for (auto j: i.second) {
-            cout << j.to.label << "(" << j.to.id << ")" << " ";
+            // cout << j.to.label << "(" << j.to.id << ")" << " ";
+            cout << j.to.label << " ";
         }
         cout << endl;
     }

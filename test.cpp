@@ -31,7 +31,7 @@ TEST_CASE("tarjan Public Test 2", "[weight=5]") {
    
 
     
-    REQUIRE( findSCCs(g)== {0,1,2,2,4,4,0});
+    REQUIRE( findSCCs(g)== {0,0,2,2,4,4,0});
 }
 TEST_CASE("tarjan Public Test 3", "[weight=5]") {
    

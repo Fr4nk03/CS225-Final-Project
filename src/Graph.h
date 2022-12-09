@@ -24,7 +24,7 @@ struct Product {
     int id; //used in tarjan's
 
     string label; //product id used in PageRank
-    int pageRank;
+    double pageRank;
     double PageRank() const { return pageRank; }
     void set_PageRank(double PageRank) { pageRank = PageRank; }
     vector<Product> links_;

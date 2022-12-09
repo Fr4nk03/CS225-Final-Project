@@ -49,11 +49,11 @@ int main() {
 //  cout << "product from: " + networkLarge[i][0] + " " + "product to: " + networkLarge[i][1] << endl; 
 //  } 
 Graph g;
-    g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small.txt");
+    g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-mixed.txt");
     g.print();
     // See this example at https://www.youtube.com/watch?v=wUgWX0nc4NY
     // g.printSCCs();
-    g.ComputePageRanks(0.85, 1);
+    g.ComputePageRanks(0.85, 100);
     // for (auto p: g.getGraph()) {
     //     cout << p.first.PageRank() << endl;
     // }

@@ -15,7 +15,7 @@ bool Graph::addProduct(Product v) {
 }
 
 bool Graph::addProduct(string str) {
-    return addProduct(Product(str, 1 / vertices.size()));
+    return addProduct(Product(str));
 }
 
 bool Graph::addEdge(Product from, Product to, int label) {
@@ -135,25 +135,59 @@ void Graph::print() {
 
 // Method to compute the PageRank values for all pages in the web
 void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
-  // Initialize the PageRank values to 1.0 which is set in "addProduct"
+  // Initialize the PageRank values to 1 / N
+  
+    for (const auto& product : vertices) {
+        Product p = product.first;
+        p.set_PageRank(1 / (double) vertices.size());
+        cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
+    }
+
+    // for (int i = 0; i < num_iterations; ++i) {
+    // // For each page in the web, compute its new PageRank value
+    //     for (const auto& product : vertices) {
+    //         Product p = product.first;
+    //         double sum = 0.0;
+    //     //   for (Product link : p.links_) {
+    //     //     sum += link.PageRank() / link.links_.size();
+    //     //   }
+    //         for (Edge e : product.second) {
+    //             auto linkNum = vertices[e.to].size();
+    //             if (linkNum != 0) {
+    //                 sum += e.to.PageRank() / linkNum;
+    //             } else {
+    //                 sum += e.to.PageRank() / vertices.size();
+    //             }
+    //         }
+    //         p.set_PageRank((1.0 - damping_factor) + damping_factor * sum);
+    //         cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
+    //     }
     for (int i = 0; i < num_iterations; ++i) {
+        double N = (double) vertices.size();
     // For each page in the web, compute its new PageRank value
         for (const auto& product : vertices) {
             Product p = product.first;
-            double sum = 0.0;
-        //   for (Product link : p.links_) {
-        //     sum += link.PageRank() / link.links_.size();
-        //   }
+            // cout << "Product link size: " + to_string(product.second.size()) << endl;
             for (Edge e : product.second) {
-                auto linkNum = vertices[e.to].size();
+                double linkNum = (double) vertices[e.to].size();
+                cout << "Number of links for Product " + e.to.label + ": " + to_string(linkNum) << endl;
+                cout << "PR value: " + to_string(e.to.pageRank) << endl;
                 if (linkNum != 0) {
-                    sum += e.to.PageRank() / linkNum;
+                    e.to.newPR += damping_factor * (e.to.PageRank() / linkNum);
+                    // cout << "New PR value: " + to_string(e.to.PageRank()) << endl;
                 } else {
-                    sum += e.to.PageRank() / vertices.size();
+                    e.to.newPR += damping_factor * (e.to.PageRank() / N);
                 }
             }
-            p.set_PageRank((1.0 - damping_factor) + damping_factor * sum);
-            cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
+            // p.set_PageRank((1.0 - damping_factor) / N + newPR);
+            // cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
         }
+        for (const auto& product : vertices) {
+            auto p = product.first;
+            p.set_PageRank((1.0 - damping_factor) / N + p.newPR);
+            p.newPR = 0;
+        }
+    // For each page in the web, compute its new PageRank value
     }
 }
+

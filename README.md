@@ -15,5 +15,13 @@ txt file is converted into the directed graph through /// ///. Then, Tarjan's al
 
 IMPORTANT: The dataset we used is unweighted. ///
 - - - -
+##Pagerank : 
 
+ Pagerank to evaluate popularity of the products.
+
+
+##Tarjan's : 
+  We first dfs assign index of each vertexes and then find strong connected component by dfs.
+  
+How to use our program?
 

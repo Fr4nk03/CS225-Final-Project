@@ -34,7 +34,7 @@ TEST_CASE("tarjan Public Test 2", "[weight=5]") {
     g.addEdge(v3, v5, 1);
     g.addEdge(v3, v2, 1);
     g.addEdge(v1, v4, 1);
-    g.addEdge(v1, v0, 1);
+    g.addEdge(v1, v6, 1);
     g.addEdge(v6, v0, 1);
     g.addEdge(v6, v2, 1);
 

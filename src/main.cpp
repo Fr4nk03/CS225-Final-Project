@@ -49,12 +49,20 @@ int main() {
 //  cout << "product from: " + networkLarge[i][0] + " " + "product to: " + networkLarge[i][1] << endl; 
 //  } 
 Graph g;
-    g.fileToGraph("/workspaces/cs225/CS225-Final-Project-main/data/test.txt");
+    g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small.txt");
     g.print();
     // See this example at https://www.youtube.com/watch?v=wUgWX0nc4NY
     // g.printSCCs();
     g.ComputePageRanks(0.85, 1);
-    for (auto p: g.getGraph()) {
-        cout << p.first.PageRank() << endl;
-    }
+    // for (auto p: g.getGraph()) {
+    //     cout << p.first.PageRank() << endl;
+    // }
+    // for (auto i : g.getGraph()) {
+    //     // cout << "from " + i.first.label << endl;
+    //     // cout << to_string(i.first.links_.size()) << endl;
+    //     for (auto p : i.first.links_) {
+    //         cout << "hello" << endl;
+    //         cout << p.label << endl;
+    //     }
+    // }
 }

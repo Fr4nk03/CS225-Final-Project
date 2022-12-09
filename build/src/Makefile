@@ -175,6 +175,30 @@ Graph.cpp.s:
 	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Graph.cpp.s
 .PHONY : Graph.cpp.s
 
+Pagerank.o: Pagerank.cpp.o
+.PHONY : Pagerank.o
+
+# target to build an object file
+Pagerank.cpp.o:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Pagerank.cpp.o
+.PHONY : Pagerank.cpp.o
+
+Pagerank.i: Pagerank.cpp.i
+.PHONY : Pagerank.i
+
+# target to preprocess a source file
+Pagerank.cpp.i:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Pagerank.cpp.i
+.PHONY : Pagerank.cpp.i
+
+Pagerank.s: Pagerank.cpp.s
+.PHONY : Pagerank.s
+
+# target to generate assembly for a file
+Pagerank.cpp.s:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Pagerank.cpp.s
+.PHONY : Pagerank.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -198,6 +222,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+tarjan.o: tarjan.cpp.o
+.PHONY : tarjan.o
+
+# target to build an object file
+tarjan.cpp.o:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tarjan.cpp.o
+.PHONY : tarjan.cpp.o
+
+tarjan.i: tarjan.cpp.i
+.PHONY : tarjan.i
+
+# target to preprocess a source file
+tarjan.cpp.i:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tarjan.cpp.i
+.PHONY : tarjan.cpp.i
+
+tarjan.s: tarjan.cpp.s
+.PHONY : tarjan.s
+
+# target to generate assembly for a file
+tarjan.cpp.s:
+	cd /workspaces/CS225-Final-Project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/tarjan.cpp.s
+.PHONY : tarjan.cpp.s
 
 utility.o: utility.cpp.o
 .PHONY : utility.o
@@ -237,9 +285,15 @@ help:
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"
+	@echo "... Pagerank.o"
+	@echo "... Pagerank.i"
+	@echo "... Pagerank.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tarjan.o"
+	@echo "... tarjan.i"
+	@echo "... tarjan.s"
 	@echo "... utility.o"
 	@echo "... utility.i"
 	@echo "... utility.s"

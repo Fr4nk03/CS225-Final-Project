@@ -7,40 +7,77 @@
 
 using namespace std;
 
-struct Product {
-    Product(string label) : label(label) {
-        id = -1;
-    };
-    Product(string label, int pageRank) : label(label), pageRank(pageRank) {
-        id = -1;
-    };
-    Product(const Product& p)
-    {
-        label = p.label;
-        pageRank = p.pageRank;
-        id = p.id;
-    }
+// struct Product {
+//     Product(string label) : label(label) {
+//         id = -1;
+//     };
+//     Product(string label, double pageRank) : label(label), pageRank(pageRank) {
+//         id = -1;
+//     };
+//     Product(const Product& p)
+//     {
+//         label = p.label;
+//         pageRank = p.pageRank;
+//         id = p.id;
+//     }
     
-    int id; //used in tarjan's
+//     int id; //used in tarjan's
 
-    string label; //product id used in PageRank
-    double pageRank;
-    double PageRank() const { return pageRank; }
-    void set_PageRank(double PageRank) { pageRank = PageRank; }
-    vector<Product> links_;
+//     string label; //product id used in PageRank
+//     double pageRank;
+//     double PageRank() const { return pageRank; }
+//     void set_PageRank(double PageRank) { pageRank = PageRank; }
+//     vector<Product> links_;
 
-    // Comparison function for map
-    bool operator<(const Product& p) const {
-        return label < p.label;
-    }
+//     // Comparison function for map
+//     bool operator<(const Product& p) const {
+//         return label < p.label;
+//     }
 
-    bool operator==(const Product& p) const {
-        return label == p.label;
-    }
+//     bool operator==(const Product& p) const {
+//         return label == p.label;
+//     }
 
-    bool operator!=(const Product& p) const {
-        return !(*this == p);
-    }
+//     bool operator!=(const Product& p) const {
+//         return !(*this == p);
+//     }
+// };
+
+class Product {
+    public: 
+        Product(string label) : label(label) {
+            id = -1;
+        };
+        Product(string label, double pageRank) : label(label), pageRank(pageRank) {
+            id = -1;
+        };
+        Product(const Product& p)
+        {
+            label = p.label;
+            pageRank = p.pageRank;
+            id = p.id;
+        }
+        
+        int id; //used in tarjan's
+
+        string label; //product id used in PageRank
+        double pageRank;
+        double PageRank() const { return pageRank; }
+        void set_PageRank(double PageRank) { pageRank = PageRank; }
+        // vector<Product> links_;
+
+        // Comparison function for map
+        bool operator<(const Product& p) const {
+            return label < p.label;
+        }
+
+        bool operator==(const Product& p) const {
+            return label == p.label;
+        }
+
+        bool operator!=(const Product& p) const {
+            return !(*this == p);
+        }
 };
 
 struct Edge {

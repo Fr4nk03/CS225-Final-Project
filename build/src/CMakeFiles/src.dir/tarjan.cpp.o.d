@@ -1,5 +1,6 @@
-src/CMakeFiles/src.dir/Graph.cpp.o: \
-  /workspaces/CS225-Final-Project/src/Graph.cpp \
+src/CMakeFiles/src.dir/tarjan.cpp.o: \
+  /workspaces/CS225-Final-Project/src/tarjan.cpp \
+  /workspaces/CS225-Final-Project/src/tarjan.h \
   /workspaces/CS225-Final-Project/src/Graph.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++config.h \
@@ -446,6 +447,4 @@ src/CMakeFiles/src.dir/Graph.cpp.o: \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/optional \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/memory_resource \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator_args.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/variant \
-  /workspaces/CS225-Final-Project/src/tarjan.h \
-  /workspaces/CS225-Final-Project/src/utility.h
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/variant

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/Graph.cpp.o CMakeFiles/src.dir/main.cpp.o CMakeFiles/src.dir/utility.cpp.o
+/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/Graph.cpp.o CMakeFiles/src.dir/Pagerank.cpp.o CMakeFiles/src.dir/main.cpp.o CMakeFiles/src.dir/tarjan.cpp.o CMakeFiles/src.dir/utility.cpp.o
 /usr/bin/ranlib libsrc.a

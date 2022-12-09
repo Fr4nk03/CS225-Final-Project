@@ -83,10 +83,24 @@ src/CMakeFiles/src.dir/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Graph.cpp.s"
 	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/Graph.cpp -o CMakeFiles/src.dir/Graph.cpp.s
 
+src/CMakeFiles/src.dir/Pagerank.cpp.o: src/CMakeFiles/src.dir/flags.make
+src/CMakeFiles/src.dir/Pagerank.cpp.o: ../src/Pagerank.cpp
+src/CMakeFiles/src.dir/Pagerank.cpp.o: src/CMakeFiles/src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/src.dir/Pagerank.cpp.o"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src.dir/Pagerank.cpp.o -MF CMakeFiles/src.dir/Pagerank.cpp.o.d -o CMakeFiles/src.dir/Pagerank.cpp.o -c /workspaces/CS225-Final-Project/src/Pagerank.cpp
+
+src/CMakeFiles/src.dir/Pagerank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Pagerank.cpp.i"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/CS225-Final-Project/src/Pagerank.cpp > CMakeFiles/src.dir/Pagerank.cpp.i
+
+src/CMakeFiles/src.dir/Pagerank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Pagerank.cpp.s"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/Pagerank.cpp -o CMakeFiles/src.dir/Pagerank.cpp.s
+
 src/CMakeFiles/src.dir/main.cpp.o: src/CMakeFiles/src.dir/flags.make
 src/CMakeFiles/src.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/src.dir/main.cpp.o: src/CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/src.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/src.dir/main.cpp.o"
 	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src.dir/main.cpp.o -MF CMakeFiles/src.dir/main.cpp.o.d -o CMakeFiles/src.dir/main.cpp.o -c /workspaces/CS225-Final-Project/src/main.cpp
 
 src/CMakeFiles/src.dir/main.cpp.i: cmake_force
@@ -97,10 +111,24 @@ src/CMakeFiles/src.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/main.cpp.s"
 	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/main.cpp -o CMakeFiles/src.dir/main.cpp.s
 
+src/CMakeFiles/src.dir/tarjan.cpp.o: src/CMakeFiles/src.dir/flags.make
+src/CMakeFiles/src.dir/tarjan.cpp.o: ../src/tarjan.cpp
+src/CMakeFiles/src.dir/tarjan.cpp.o: src/CMakeFiles/src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/src.dir/tarjan.cpp.o"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src.dir/tarjan.cpp.o -MF CMakeFiles/src.dir/tarjan.cpp.o.d -o CMakeFiles/src.dir/tarjan.cpp.o -c /workspaces/CS225-Final-Project/src/tarjan.cpp
+
+src/CMakeFiles/src.dir/tarjan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/tarjan.cpp.i"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/CS225-Final-Project/src/tarjan.cpp > CMakeFiles/src.dir/tarjan.cpp.i
+
+src/CMakeFiles/src.dir/tarjan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/tarjan.cpp.s"
+	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/tarjan.cpp -o CMakeFiles/src.dir/tarjan.cpp.s
+
 src/CMakeFiles/src.dir/utility.cpp.o: src/CMakeFiles/src.dir/flags.make
 src/CMakeFiles/src.dir/utility.cpp.o: ../src/utility.cpp
 src/CMakeFiles/src.dir/utility.cpp.o: src/CMakeFiles/src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/src.dir/utility.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/src.dir/utility.cpp.o"
 	cd /workspaces/CS225-Final-Project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src.dir/utility.cpp.o -MF CMakeFiles/src.dir/utility.cpp.o.d -o CMakeFiles/src.dir/utility.cpp.o -c /workspaces/CS225-Final-Project/src/utility.cpp
 
 src/CMakeFiles/src.dir/utility.cpp.i: cmake_force
@@ -114,18 +142,22 @@ src/CMakeFiles/src.dir/utility.cpp.s: cmake_force
 # Object files for target src
 src_OBJECTS = \
 "CMakeFiles/src.dir/Graph.cpp.o" \
+"CMakeFiles/src.dir/Pagerank.cpp.o" \
 "CMakeFiles/src.dir/main.cpp.o" \
+"CMakeFiles/src.dir/tarjan.cpp.o" \
 "CMakeFiles/src.dir/utility.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
 src/libsrc.a: src/CMakeFiles/src.dir/Graph.cpp.o
+src/libsrc.a: src/CMakeFiles/src.dir/Pagerank.cpp.o
 src/libsrc.a: src/CMakeFiles/src.dir/main.cpp.o
+src/libsrc.a: src/CMakeFiles/src.dir/tarjan.cpp.o
 src/libsrc.a: src/CMakeFiles/src.dir/utility.cpp.o
 src/libsrc.a: src/CMakeFiles/src.dir/build.make
 src/libsrc.a: src/CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsrc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsrc.a"
 	cd /workspaces/CS225-Final-Project/build/src && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean_target.cmake
 	cd /workspaces/CS225-Final-Project/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 

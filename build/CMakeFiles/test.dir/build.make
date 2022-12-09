@@ -69,38 +69,2152 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.i
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.i
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.s
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.s
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o: /root/.vscode-server/data/User/History/-55158e15/36ja.cpp
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/36ja.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/36ja.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.i
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.i
 
-CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/36ja.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.s
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/2rov.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/2rov.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/2rov.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/2rov.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/6637.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/6637.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/6637.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/6637.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/991m.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/991m.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/991m.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/991m.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/HDye.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/HDye.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/HDye.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/HDye.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/IV80.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/IV80.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/IV80.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/IV80.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/OktP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/OktP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/OktP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/OktP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/REud.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/REud.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/REud.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/REud.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/RGec.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/RGec.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/RGec.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/RGec.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/W47r.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/W47r.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/W47r.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/W47r.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/txUv.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/txUv.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/txUv.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/txUv.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/wroj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/wroj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/wroj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/wroj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o: /root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o -c /root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o: /root/.vscode-server/data/User/History/-55158e15/2ECP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/2ECP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/2ECP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/2ECP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o: /root/.vscode-server/data/User/History/-55158e15/3YtM.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/3YtM.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/3YtM.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/3YtM.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o: /root/.vscode-server/data/User/History/-55158e15/47tY.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/47tY.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/47tY.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/47tY.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o: /root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o: /root/.vscode-server/data/User/History/-55158e15/8x4x.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/8x4x.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/8x4x.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/8x4x.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o: /root/.vscode-server/data/User/History/-55158e15/9xKm.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/9xKm.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/9xKm.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/9xKm.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o: /root/.vscode-server/data/User/History/-55158e15/A5bY.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/A5bY.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/A5bY.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/A5bY.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o: /root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o: /root/.vscode-server/data/User/History/-55158e15/BLtv.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/BLtv.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/BLtv.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/BLtv.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o: /root/.vscode-server/data/User/History/-55158e15/BVYi.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/BVYi.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/BVYi.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/BVYi.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o: /root/.vscode-server/data/User/History/-55158e15/Bn20.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/Bn20.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/Bn20.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/Bn20.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o: /root/.vscode-server/data/User/History/-55158e15/DXRj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/DXRj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/DXRj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/DXRj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o: /root/.vscode-server/data/User/History/-55158e15/DwLh.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/DwLh.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/DwLh.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/DwLh.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o: /root/.vscode-server/data/User/History/-55158e15/E49y.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/E49y.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/E49y.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/E49y.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o: /root/.vscode-server/data/User/History/-55158e15/FjaX.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/FjaX.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/FjaX.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/FjaX.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o: /root/.vscode-server/data/User/History/-55158e15/HDNj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/HDNj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/HDNj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/HDNj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o: /root/.vscode-server/data/User/History/-55158e15/J2AI.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/J2AI.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/J2AI.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/J2AI.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o: /root/.vscode-server/data/User/History/-55158e15/Jh79.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/Jh79.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/Jh79.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/Jh79.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o: /root/.vscode-server/data/User/History/-55158e15/KxjE.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/KxjE.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/KxjE.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/KxjE.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o: /root/.vscode-server/data/User/History/-55158e15/MNsc.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/MNsc.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/MNsc.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/MNsc.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o: /root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o: /root/.vscode-server/data/User/History/-55158e15/S12X.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/S12X.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/S12X.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/S12X.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o: /root/.vscode-server/data/User/History/-55158e15/SALH.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/SALH.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/SALH.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/SALH.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o: /root/.vscode-server/data/User/History/-55158e15/SJQi.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/SJQi.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/SJQi.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/SJQi.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o: /root/.vscode-server/data/User/History/-55158e15/SvsI.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/SvsI.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/SvsI.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/SvsI.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o: /root/.vscode-server/data/User/History/-55158e15/UFXn.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/UFXn.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/UFXn.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/UFXn.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o: /root/.vscode-server/data/User/History/-55158e15/UPtt.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/UPtt.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/UPtt.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/UPtt.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o: /root/.vscode-server/data/User/History/-55158e15/V2bs.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/V2bs.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/V2bs.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/V2bs.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o: /root/.vscode-server/data/User/History/-55158e15/Wl46.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/Wl46.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/Wl46.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/Wl46.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o: /root/.vscode-server/data/User/History/-55158e15/afAQ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/afAQ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/afAQ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/afAQ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o: /root/.vscode-server/data/User/History/-55158e15/eSar.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/eSar.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/eSar.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/eSar.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o: /root/.vscode-server/data/User/History/-55158e15/ei5I.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/ei5I.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/ei5I.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/ei5I.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o: /root/.vscode-server/data/User/History/-55158e15/eoG2.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/eoG2.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/eoG2.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/eoG2.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o: /root/.vscode-server/data/User/History/-55158e15/fvzD.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/fvzD.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/fvzD.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/fvzD.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o: /root/.vscode-server/data/User/History/-55158e15/jqAT.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/jqAT.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/jqAT.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/jqAT.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o: /root/.vscode-server/data/User/History/-55158e15/jxsi.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/jxsi.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/jxsi.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/jxsi.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o: /root/.vscode-server/data/User/History/-55158e15/jyiG.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/jyiG.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/jyiG.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/jyiG.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o: /root/.vscode-server/data/User/History/-55158e15/kIak.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/kIak.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/kIak.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/kIak.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o: /root/.vscode-server/data/User/History/-55158e15/kyrO.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/kyrO.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/kyrO.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/kyrO.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o: /root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o: /root/.vscode-server/data/User/History/-55158e15/mKuL.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/mKuL.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/mKuL.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/mKuL.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o: /root/.vscode-server/data/User/History/-55158e15/mQFa.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/mQFa.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/mQFa.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/mQFa.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o: /root/.vscode-server/data/User/History/-55158e15/rln3.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/rln3.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/rln3.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/rln3.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o: /root/.vscode-server/data/User/History/-55158e15/tSHs.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/tSHs.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/tSHs.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/tSHs.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o: /root/.vscode-server/data/User/History/-55158e15/uP3z.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/uP3z.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/uP3z.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/uP3z.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o: /root/.vscode-server/data/User/History/-55158e15/xcV3.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/xcV3.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/xcV3.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/xcV3.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o: /root/.vscode-server/data/User/History/-55158e15/xwEj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/xwEj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/xwEj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/xwEj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o: /root/.vscode-server/data/User/History/-55158e15/yoyW.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/yoyW.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/yoyW.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/yoyW.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o: /root/.vscode-server/data/User/History/-55158e15/ywTS.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/ywTS.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/ywTS.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/ywTS.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o: /root/.vscode-server/data/User/History/-55158e15/zx6j.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o -c /root/.vscode-server/data/User/History/-55158e15/zx6j.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-55158e15/zx6j.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-55158e15/zx6j.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o: /root/.vscode-server/data/User/History/-687747f3/5gG2.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o -c /root/.vscode-server/data/User/History/-687747f3/5gG2.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-687747f3/5gG2.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-687747f3/5gG2.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o: /root/.vscode-server/data/User/History/-687747f3/5rmC.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o -c /root/.vscode-server/data/User/History/-687747f3/5rmC.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-687747f3/5rmC.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-687747f3/5rmC.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o: /root/.vscode-server/data/User/History/-687747f3/98bY.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o -c /root/.vscode-server/data/User/History/-687747f3/98bY.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-687747f3/98bY.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-687747f3/98bY.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/670f.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/670f.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/670f.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/670f.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/becs.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/becs.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/becs.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/becs.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.s
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o: /root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o -MF CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o.d -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o -c /root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp > CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.i
+
+CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp -o CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.s
 
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o: /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.i: cmake_force
@@ -114,7 +2228,7 @@ CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.s: cmak
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o: /usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o -MF CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o.d -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o -c /usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp
 
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.i: cmake_force
@@ -128,7 +2242,7 @@ CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.s: cm
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o: /usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o -MF CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o.d -o CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o -c /usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp
 
 CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.i: cmake_force
@@ -142,7 +2256,7 @@ CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.s: c
 CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
 CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -MF CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d -o CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /workspaces/CS225-Final-Project/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
@@ -156,7 +2270,7 @@ CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cm
 CMakeFiles/test.dir/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/main.cpp.o: ../main.cpp
 CMakeFiles/test.dir/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/test.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/main.cpp.o -MF CMakeFiles/test.dir/main.cpp.o.d -o CMakeFiles/test.dir/main.cpp.o -c /workspaces/CS225-Final-Project/main.cpp
 
 CMakeFiles/test.dir/main.cpp.i: cmake_force
@@ -170,7 +2284,7 @@ CMakeFiles/test.dir/main.cpp.s: cmake_force
 CMakeFiles/test.dir/src/Graph.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/Graph.cpp.o: ../src/Graph.cpp
 CMakeFiles/test.dir/src/Graph.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/src/Graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/test.dir/src/Graph.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/Graph.cpp.o -MF CMakeFiles/test.dir/src/Graph.cpp.o.d -o CMakeFiles/test.dir/src/Graph.cpp.o -c /workspaces/CS225-Final-Project/src/Graph.cpp
 
 CMakeFiles/test.dir/src/Graph.cpp.i: cmake_force
@@ -181,10 +2295,24 @@ CMakeFiles/test.dir/src/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/Graph.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/Graph.cpp -o CMakeFiles/test.dir/src/Graph.cpp.s
 
+CMakeFiles/test.dir/src/Pagerank.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Pagerank.cpp.o: ../src/Pagerank.cpp
+CMakeFiles/test.dir/src/Pagerank.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/test.dir/src/Pagerank.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/Pagerank.cpp.o -MF CMakeFiles/test.dir/src/Pagerank.cpp.o.d -o CMakeFiles/test.dir/src/Pagerank.cpp.o -c /workspaces/CS225-Final-Project/src/Pagerank.cpp
+
+CMakeFiles/test.dir/src/Pagerank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/Pagerank.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/CS225-Final-Project/src/Pagerank.cpp > CMakeFiles/test.dir/src/Pagerank.cpp.i
+
+CMakeFiles/test.dir/src/Pagerank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/Pagerank.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/Pagerank.cpp -o CMakeFiles/test.dir/src/Pagerank.cpp.s
+
 CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/main.cpp.o -MF CMakeFiles/test.dir/src/main.cpp.o.d -o CMakeFiles/test.dir/src/main.cpp.o -c /workspaces/CS225-Final-Project/src/main.cpp
 
 CMakeFiles/test.dir/src/main.cpp.i: cmake_force
@@ -195,10 +2323,24 @@ CMakeFiles/test.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/main.cpp -o CMakeFiles/test.dir/src/main.cpp.s
 
+CMakeFiles/test.dir/src/tarjan.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/tarjan.cpp.o: ../src/tarjan.cpp
+CMakeFiles/test.dir/src/tarjan.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/test.dir/src/tarjan.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/tarjan.cpp.o -MF CMakeFiles/test.dir/src/tarjan.cpp.o.d -o CMakeFiles/test.dir/src/tarjan.cpp.o -c /workspaces/CS225-Final-Project/src/tarjan.cpp
+
+CMakeFiles/test.dir/src/tarjan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/tarjan.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/CS225-Final-Project/src/tarjan.cpp > CMakeFiles/test.dir/src/tarjan.cpp.i
+
+CMakeFiles/test.dir/src/tarjan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/tarjan.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/tarjan.cpp -o CMakeFiles/test.dir/src/tarjan.cpp.s
+
 CMakeFiles/test.dir/src/utility.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/utility.cpp.o: ../src/utility.cpp
 CMakeFiles/test.dir/src/utility.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test.dir/src/utility.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/test.dir/src/utility.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/utility.cpp.o -MF CMakeFiles/test.dir/src/utility.cpp.o.d -o CMakeFiles/test.dir/src/utility.cpp.o -c /workspaces/CS225-Final-Project/src/utility.cpp
 
 CMakeFiles/test.dir/src/utility.cpp.i: cmake_force
@@ -209,38 +2351,360 @@ CMakeFiles/test.dir/src/utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/utility.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/src/utility.cpp -o CMakeFiles/test.dir/src/utility.cpp.s
 
+CMakeFiles/test.dir/test.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/test.cpp.o: ../test.cpp
+CMakeFiles/test.dir/test.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/test.dir/test.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cpp.o -MF CMakeFiles/test.dir/test.cpp.o.d -o CMakeFiles/test.dir/test.cpp.o -c /workspaces/CS225-Final-Project/test.cpp
+
+CMakeFiles/test.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/CS225-Final-Project/test.cpp > CMakeFiles/test.dir/test.cpp.i
+
+CMakeFiles/test.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/CS225-Final-Project/test.cpp -o CMakeFiles/test.dir/test.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o" \
-"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o" \
+"CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o" \
 "CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o" \
 "CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o" \
 "CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o" \
 "CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" \
 "CMakeFiles/test.dir/main.cpp.o" \
 "CMakeFiles/test.dir/src/Graph.cpp.o" \
+"CMakeFiles/test.dir/src/Pagerank.cpp.o" \
 "CMakeFiles/test.dir/src/main.cpp.o" \
-"CMakeFiles/test.dir/src/utility.cpp.o"
+"CMakeFiles/test.dir/src/tarjan.cpp.o" \
+"CMakeFiles/test.dir/src/utility.cpp.o" \
+"CMakeFiles/test.dir/test.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/dKMh.cpp.o
-test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/36ja.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/0FqF.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/1Es0.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/2rov.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/3w9b.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/5qWl.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/6637.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/991m.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/9rWW.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/AXeW.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/D4qM.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/DtvP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Em0T.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/GnUP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/HDye.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/IV80.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/J6nw.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/JPCR.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KjW1.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/KtWB.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/LGjJ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/MBdC.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/Ma87.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NHr0.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/NQJ7.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OF6w.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/OktP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/REud.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/RGec.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/TvGG.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/VBTH.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W47r.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/W4vp.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WJtI.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/WNSH.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/XPfr.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/aZ36.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/e9aD.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/eGrH.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/j1ma.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/l0eP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/lrqt.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/nc3t.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/r7Xa.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/rQVw.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/txUv.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vLLs.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/vlfd.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wSdX.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/wroj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-10163cfc/zPn5.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/2ECP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/3YtM.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/47tY.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/7p7Q.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/8x4x.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/9xKm.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/A5bY.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/AqcJ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BLtv.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/BVYi.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Bn20.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DXRj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/DwLh.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/E49y.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/FjaX.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/HDNj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/J2AI.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Jh79.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/KxjE.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/MNsc.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Nlgz.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/S12X.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SALH.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SJQi.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/SvsI.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UFXn.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/UPtt.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/V2bs.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/Wl46.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/afAQ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eSar.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ei5I.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/eoG2.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/fvzD.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jqAT.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jxsi.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/jyiG.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kIak.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/kyrO.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/l8Sj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mKuL.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/mQFa.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/rln3.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/tSHs.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/uP3z.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xcV3.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/xwEj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/yoyW.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/ywTS.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-55158e15/zx6j.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5gG2.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/5rmC.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-687747f3/98bY.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1JTb.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1fg1.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/1ie1.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2mWh.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/2sJQ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/670f.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/67fH.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AC4L.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/AnS6.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/BSOM.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/HNwW.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/JS4q.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/K02r.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Ki8k.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Kopt.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Nf74.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OV8k.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/OtMJ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/PjPm.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Px3E.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/REmy.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/SWhN.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/UVow.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/VIbL.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Wn8u.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XK9D.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/XbT5.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y7Gz.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/Y832.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/aBJ1.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/agn5.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/bDNz.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/becs.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/blvJ.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/cfPe.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/e3T9.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/feGU.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/gEyF.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/iC37.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/idqy.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l4t8.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/l9OL.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/moEB.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/nwEW.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/owLU.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/pT3l.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/tSzP.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/xxgj.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/yQUz.cpp.o
+test: CMakeFiles/test.dir/root/.vscode-server/data/User/History/-a7fd17a/zgA1.cpp.o
 test: CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp.o
 test: CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/foo.cpp.o
 test: CMakeFiles/test.dir/usr/share/cmake-3.22/Modules/CheckIPOSupported/main.cpp.o
 test: CMakeFiles/test.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 test: CMakeFiles/test.dir/main.cpp.o
 test: CMakeFiles/test.dir/src/Graph.cpp.o
+test: CMakeFiles/test.dir/src/Pagerank.cpp.o
 test: CMakeFiles/test.dir/src/main.cpp.o
+test: CMakeFiles/test.dir/src/tarjan.cpp.o
 test: CMakeFiles/test.dir/src/utility.cpp.o
+test: CMakeFiles/test.dir/test.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: /usr/lib/libCatch2Main.a
 test: src/libsrc.a
 test: /usr/lib/libCatch2.a
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/CS225-Final-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=test -D TEST_EXECUTABLE=/workspaces/CS225-Final-Project/build/test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/workspaces/CS225-Final-Project/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=test_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=/workspaces/CS225-Final-Project/build/test_tests-b12d07c.cmake -P /usr/lib/cmake/Catch2/CatchAddTests.cmake
 

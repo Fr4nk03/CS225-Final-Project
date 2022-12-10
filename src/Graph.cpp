@@ -22,7 +22,7 @@ bool Graph::addProduct(string str) {
 bool Graph::addEdge(Product& from, Product& to, int label) {
     if (std::find(vertices[from].begin(), vertices[from].end(), Edge(from, to, label)) == vertices[from].end()) {
         vertices[from].push_back(Edge(from, to, label));
-        from.links_.push_back(to); //used in pageRank
+        // from.links_.push_back(to); //used in pageRank
         // cout << "ln 25 " + from.links_[0].label << endl;
         return true;
     }
@@ -94,6 +94,7 @@ void Graph::fileToGraph(string filename) {
         addProduct(to);
         Product f = Product(from);
         Product t = Product(to);
+        // f.links_.push_back(t);
         // addEdge(Product(from), Product(to), 0);
         addEdge(f, t, 0);
     }

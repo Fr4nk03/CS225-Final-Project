@@ -65,7 +65,7 @@ class Product {
         double newPR = 0;
         double PageRank() const { return pageRank; }
         void set_PageRank(double PageRank) { pageRank = PageRank; }
-        // vector<Product> links_;
+        vector<Product> links_;
 
         // Comparison function for map
         bool operator<(const Product& p) const {
@@ -101,7 +101,7 @@ class Graph {
         Graph();
         bool addProduct(Product v);
         bool addProduct(string str);
-        bool addEdge(Product from, Product to, int label);
+        bool addEdge(Product& from, Product& to, int label);
         void convertV2D(const string & filename, const int size);
         void fileToGraph(string filename);
         map<Product, vector<Edge>>& getGraph();
@@ -118,4 +118,5 @@ class Graph {
     private:
         map<Product, vector<Edge>> vertices;
         map<int, vector<Edge>> check;
+        vector<Product> product_;
 };

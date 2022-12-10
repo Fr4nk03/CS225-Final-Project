@@ -7,6 +7,7 @@ Graph::Graph() {}
 
 bool Graph::addProduct(Product v) {
     if (vertices.find(v) == vertices.end()) {
+        product_.push_back(v);
         vertices[v] = vector<Edge>();
         return true;
     }
@@ -18,10 +19,10 @@ bool Graph::addProduct(string str) {
     return addProduct(Product(str));
 }
 
-bool Graph::addEdge(Product from, Product to, int label) {
+bool Graph::addEdge(Product& from, Product& to, int label) {
     if (std::find(vertices[from].begin(), vertices[from].end(), Edge(from, to, label)) == vertices[from].end()) {
         vertices[from].push_back(Edge(from, to, label));
-        // from.links_.push_back(to); //used in pageRank
+        from.links_.push_back(to); //used in pageRank
         // cout << "ln 25 " + from.links_[0].label << endl;
         return true;
     }
@@ -91,7 +92,10 @@ void Graph::fileToGraph(string filename) {
         // cout << from << "->" << to << endl;
         addProduct(from);
         addProduct(to);
-        addEdge(Product(from), Product(to), 0);
+        Product f = Product(from);
+        Product t = Product(to);
+        // addEdge(Product(from), Product(to), 0);
+        addEdge(f, t, 0);
     }
 }
 
@@ -137,11 +141,11 @@ void Graph::print() {
 void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
   // Initialize the PageRank values to 1 / N
   
-    for (const auto& product : vertices) {
-        Product p = product.first;
-        p.set_PageRank(1 / (double) vertices.size());
-        cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
-    }
+    // for (pair<Product, vector<Edge>>& product : vertices) {
+    //     Product p = product.first;
+    //     p.set_PageRank(1 / (double) vertices.size());
+    //     cout << "Pagerank value for Product " + p.label + ": " + to_string(p.PageRank()) << endl;
+    // }
 
     // for (int i = 0; i < num_iterations; ++i) {
     // // For each page in the web, compute its new PageRank value
@@ -162,32 +166,64 @@ void Graph::ComputePageRanks(double damping_factor, int num_iterations) {
     //         p.set_PageRank((1.0 - damping_factor) + damping_factor * sum);
     //         cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
     //     }
+    // for (int i = 0; i < num_iterations; ++i) {
+    //     double N = (double) vertices.size();
+    // // For each page in the web, compute its new PageRank value
+    //     for (auto product : vertices) {
+    //         Product p = product.first;
+    //         cout << to_string(p.PageRank()) << endl;
+    //         cout << "Product link size: " + to_string(product.second.size()) << endl;
+    //         for (Edge e : product.second) {
+    //             double linkNum = (double) vertices[e.to].size();
+    //             cout << "Number of links for Product " + e.to.label + ": " + to_string(linkNum) << endl;
+    //             cout << "PR value: " + to_string(e.to.pageRank) << endl;
+    //             if (linkNum != 0) {
+    //                 e.to.newPR += damping_factor * (e.to.PageRank() / linkNum);
+    //                 cout << "New PR value: " + to_string(e.to.pageRank) << endl;
+    //             } else {
+    //                 e.to.newPR += damping_factor * (e.to.PageRank() / N);
+    //             }
+    //         }
+    //         p.set_PageRank((1.0 - damping_factor) / N + newPR);
+    //         // cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
+    //     }
+    //     for (const auto& product : vertices) {
+    //         auto p = product.first;
+    //         p.set_PageRank((1.0 - damping_factor) / N + p.newPR);
+    //         p.newPR = 0;
+    //     }
+    // // For each page in the web, compute its new PageRank value
+    // }
+    for (Product& p : product_) {
+        double n = (double) product_.size();
+        p.set_PageRank(1 / n);
+        cout << "Pagerank value for Product " + p.label + ": " + to_string(p.PageRank()) << endl;
+    }
+
     for (int i = 0; i < num_iterations; ++i) {
-        double N = (double) vertices.size();
+        double N = (double) product_.size();
     // For each page in the web, compute its new PageRank value
-        for (const auto& product : vertices) {
-            Product p = product.first;
-            // cout << "Product link size: " + to_string(product.second.size()) << endl;
-            for (Edge e : product.second) {
-                double linkNum = (double) vertices[e.to].size();
-                cout << "Number of links for Product " + e.to.label + ": " + to_string(linkNum) << endl;
-                cout << "PR value: " + to_string(e.to.pageRank) << endl;
+        for (Product& p : product_) {
+            cout << to_string(p.PageRank()) << endl;
+            cout << "Product link size: " + to_string(p.links_.size()) << endl;
+            for (Product& to : p.links_) {
+                double linkNum = (double) p.links_.size();
+                cout << "Number of links for Product " + to.label + ": " + to_string(linkNum) << endl;
+                cout << "PR value: " + to_string(to.pageRank) << endl;
                 if (linkNum != 0) {
-                    e.to.newPR += damping_factor * (e.to.PageRank() / linkNum);
-                    // cout << "New PR value: " + to_string(e.to.PageRank()) << endl;
+                    to.newPR += damping_factor * (to.PageRank() / linkNum);
+                    cout << "New PR value: " + to_string(to.pageRank) << endl;
                 } else {
-                    e.to.newPR += damping_factor * (e.to.PageRank() / N);
+                    to.newPR += damping_factor * (to.PageRank() / N);
                 }
             }
             // p.set_PageRank((1.0 - damping_factor) / N + newPR);
             // cout << "Pagerank value for Product " + p.label + ": " + to_string(p.pageRank) << endl;
         }
-        for (const auto& product : vertices) {
-            auto p = product.first;
+        for (Product& p : product_) {
             p.set_PageRank((1.0 - damping_factor) / N + p.newPR);
             p.newPR = 0;
         }
-    // For each page in the web, compute its new PageRank value
     }
 }
 

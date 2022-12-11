@@ -1,4 +1,5 @@
 Contributors: Jincheng Xu, Hanqi Mao, Shuqin Zhu, Xinming ZHai
+Link on github: https://github.com/Fr4nk03/CS225-Final-Project/blob/main/report.md
 
 Final Project - recommendations for co-purchasing products.
 https://github.com/Fr4nk03/CS225-Final-Project.git

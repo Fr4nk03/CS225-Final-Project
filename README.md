@@ -6,7 +6,7 @@ Our project uses Amazon co-purchasing network obtained from http://snap.stanford
 
 Our presentation video: ///
 
-All testing and running of our code can be done in main.cpp by make or cmake.
+All testing and running of our code can be done in main.cpp by **make or cmake**. IMPORTANT: Users should cd to src folder and then **make** can be used.
 
 - - - -
 ## Main Files

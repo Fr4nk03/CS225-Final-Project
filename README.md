@@ -26,7 +26,7 @@ The **damping_factor** simulates an imaginary product seeker who is randomly cli
 
 The number of iterations (**num_iterations**) is needed in the parameter because it not only is helpful for our testing, but also allows us to know when the pagerank value of each product converges to a float.
 
-
+To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the path of your dataset.
 
 - - - - 
 ## Tarjan's algorithm Implementation

@@ -35,6 +35,20 @@ map<int, vector<Product*>> Graph::getSCCs() {
     return map;
 }
 
+pair<string, double> Graph::getMostPopular(vector<Product*> scc) {
+    size_t ind = 0;
+    double cur = -9999;
+    for (size_t i = 0; i < scc.size(); i++) {
+        auto pr = scc.at(i)->PageRank();
+        if (pr >= cur) {
+            cur = pr;
+            ind = i;
+        }
+    }
+    auto toReturn = make_pair(scc.at(ind)->label, scc.at(ind)->PageRank());
+    return toReturn;
+}
+
 void Graph::printSCCs() {
     for (auto i: getSCCs()) {
         cout << "[ ";
@@ -42,6 +56,8 @@ void Graph::printSCCs() {
             cout << (*j).label << " ";
         }
         cout << "]" << endl;
+        cout << "The most Popular Product in this SCC is Product " + getMostPopular(i.second).first + 
+            " with the PageRank value to be " + to_string(getMostPopular(i.second).second) << endl;
     }
 }
 

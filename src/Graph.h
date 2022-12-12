@@ -74,7 +74,8 @@ class Graph {
 
         //pageRank
         void ComputePageRanks(double damping_factor, int num_iterations);
-    
+        pair<string, double> getMostPopular(vector<Product*> scc); //output pair: label and pagerank value
+
     private:
         map<string, pair<Product*, vector<Edge>>> vertices;
 };

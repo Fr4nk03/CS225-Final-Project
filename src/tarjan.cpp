@@ -284,7 +284,7 @@ vector<int> findSCCs(Graph& g) {
 
     for (auto g : graph) {
         Product* p = g.second.first;
-        cout << p->label << endl;
+        // cout << p->label << endl;
         for (unsigned int i = 0; i < graph.size(); i++) {
             // cout << "traveled to " << i << "(" << it->first.id << ") ";
             if (!visited[i]) {

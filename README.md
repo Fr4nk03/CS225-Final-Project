@@ -5,6 +5,7 @@ Group member: Xinming Zhai, Jincheng Xu, Hanqi Mao, Shuqin Zhu
 Our project uses Amazon co-purchasing network obtained from http://snap.stanford.edu/data/amazon0302.html. If a product i is frequently co-purchased with product j, the graph contains a directed edge from i to j. The dataset is given as a txt file with two nodes of each edge seperated by '\t'. Our goal is to find strongly connected components and search for the most popular product with the greatest pageRank value.
 
 Our presentation video: ///
+(The first 3 minutes is recorded by Xinming Zhai and Jincheng Xu. The next 2 minutes is recorded by Shuqin Zhu. The last part is done by Hanqi Mao.)
 
 All testing and running of our code can be done in main.cpp by **make or cmake**. IMPORTANT: Users should cd to src folder and then **make** can be used.
 

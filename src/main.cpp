@@ -48,21 +48,33 @@ int main() {
 //  for (size_t i = 0; i < networkLarge.size(); i++) { 
 //  cout << "product from: " + networkLarge[i][0] + " " + "product to: " + networkLarge[i][1] << endl; 
 //  } 
-Graph g;
-    g.fileToGraph("/workspaces/CS225-Final-Project/data/pageRank_small.txt");
-    g.print();
-    // See this example at https://www.youtube.com/watch?v=wUgWX0nc4NY
-    // g.printSCCs();
-    g.ComputePageRanks(0.85, 1);
-    // for (auto p: g.getGraph()) {
-    //     cout << p.first.PageRank() << endl;
-    // }
-    // for (auto i : g.getGraph()) {
-    //     // cout << "from " + i.first.label << endl;
-    //     // cout << to_string(i.first.links_.size()) << endl;
-    //     for (auto p : i.first.links_) {
-    //         cout << "hello" << endl;
-    //         cout << p.label << endl;
-    //     }
-    // }
+
+  //pagerank small
+  // Graph g;
+  // g.fileToGraph("/workspaces/CS225-Final-Project/data/pageRank_small.txt");
+  // g.print();
+  // g.ComputePageRanks(0.85, 10000);
+  // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  // for (auto it = vertices.begin(); it != vertices.end(); it++) {
+  //     cout << it->second.first->PageRank() << endl;
+  // }
+
+  //pagerank ungraph small
+  // Graph g;
+  // g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small.txt");
+  // g.print();
+  // g.ComputePageRanks(0.85, 10000);
+  // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  // for (auto it = vertices.begin(); it != vertices.end(); it++) {
+  //     cout << it->second.first->PageRank() << endl;
+  // }
+  Graph g;
+  g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small 2.txt");
+  g.print();
+  g.printSCCs();
+  g.ComputePageRanks(0.85, 10000);
+  map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  for (auto it = vertices.begin(); it != vertices.end(); it++) {
+      cout << "Pagerank value for product " + it->second.first->label + " " + to_string(it->second.first->PageRank()) << endl;
+  }
 }

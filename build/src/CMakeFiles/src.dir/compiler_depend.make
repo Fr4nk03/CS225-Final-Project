@@ -469,6 +469,7 @@ src/CMakeFiles/src.dir/Graph.cpp.o: ../src/Graph.cpp \
   /usr/include/c++/11/memory_resource \
   /usr/include/c++/11/bits/uses_allocator_args.h \
   /usr/include/c++/11/variant \
+  /usr/include/c++/11/ranges \
   ../src/tarjan.h \
   ../src/utility.h
 
@@ -943,6 +944,7 @@ src/CMakeFiles/src.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/memory_resource \
   /usr/include/c++/11/bits/uses_allocator_args.h \
   /usr/include/c++/11/variant \
+  /usr/include/c++/11/ranges \
   ../src/tarjan.h
 
 src/CMakeFiles/src.dir/tarjan.cpp.o: ../src/tarjan.cpp \
@@ -1413,7 +1415,8 @@ src/CMakeFiles/src.dir/tarjan.cpp.o: ../src/tarjan.cpp \
   /usr/include/c++/11/optional \
   /usr/include/c++/11/memory_resource \
   /usr/include/c++/11/bits/uses_allocator_args.h \
-  /usr/include/c++/11/variant
+  /usr/include/c++/11/variant \
+  /usr/include/c++/11/ranges
 
 src/CMakeFiles/src.dir/utility.cpp.o: ../src/utility.cpp \
   ../src/utility.h \
@@ -1707,6 +1710,8 @@ src/CMakeFiles/src.dir/utility.cpp.o: ../src/utility.cpp \
 ../src/main.cpp:
 
 ../src/utility.h:
+
+/usr/include/c++/11/ranges:
 
 /usr/include/c++/11/variant:
 

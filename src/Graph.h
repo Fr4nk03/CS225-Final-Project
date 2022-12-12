@@ -1,48 +1,15 @@
+//version 3: map with pair<Product, vector<Edge>>
+
 #pragma once
 
 #include <iostream>
 #include <vector>
 #include <map>
 #include <bits/stdc++.h>
+#include <ranges> //need to find in the vector of pairs
+#include <algorithm>
 
 using namespace std;
-
-// struct Product {
-//     Product(string label) : label(label) {
-//         id = -1;
-//     };
-//     Product(string label, double pageRank) : label(label), pageRank(pageRank) {
-//         id = -1;
-//     };
-//     Product(const Product& p)
-//     {
-//         label = p.label;
-//         pageRank = p.pageRank;
-//         id = p.id;
-//     }
-    
-//     int id; //used in tarjan's
-
-//     string label; //product id used in PageRank
-//     double pageRank;
-//     double newPR = 0;
-//     double PageRank() const { return pageRank; }
-//     void set_PageRank(double PageRank) { pageRank = PageRank; }
-//     vector<Product> links_;
-
-//     // Comparison function for map
-//     bool operator<(const Product& p) const {
-//         return label < p.label;
-//     }
-
-//     bool operator==(const Product& p) const {
-//         return label == p.label;
-//     }
-
-//     bool operator!=(const Product& p) const {
-//         return !(*this == p);
-//     }
-// };
 
 class Product {
     public: 
@@ -65,7 +32,6 @@ class Product {
         double newPR = 0;
         double PageRank() const { return pageRank; }
         void set_PageRank(double PageRank) { pageRank = PageRank; }
-        vector<Product> links_;
 
         // Comparison function for map
         bool operator<(const Product& p) const {
@@ -82,10 +48,9 @@ class Product {
 };
 
 struct Edge {
-    Edge(Product from, Product to, int label) : from(from), to(to), label(label) {};
-    Product from;
-    Product to;
-    int label;
+    Edge(Product* from, Product* to) : from(from), to(to) {};
+    mutable Product* from;
+    mutable Product* to;
 
     bool operator!=(const Edge& e) const {
         return !(*this == e);
@@ -99,24 +64,17 @@ struct Edge {
 class Graph {
     public:
         Graph();
-        bool addProduct(Product v);
-        bool addProduct(string str);
-        bool addEdge(Product& from, Product& to, int label);
-        void convertV2D(const string & filename, const int size);
+        void addPair(string str1, string str2);
         void fileToGraph(string filename);
-        map<Product, vector<Edge>>& getGraph();
-        // map<int, vector<Edge>> getGraph();
-        map<int, vector<Product>> getSCCs();
+        map<string, pair<Product*, vector<Edge>>>& getGraph();
+        map<int, vector<Product*>> getSCCs();
         void printSCCs();
         void setID();
-        void setID(Product p, int id);
         void print();
-
 
         //pageRank
         void ComputePageRanks(double damping_factor, int num_iterations);
+    
     private:
-        map<Product, vector<Edge>> vertices;
-        map<int, vector<Edge>> check;
-        vector<Product> product_;
+        map<string, pair<Product*, vector<Edge>>> vertices;
 };

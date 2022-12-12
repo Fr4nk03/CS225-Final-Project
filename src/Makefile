@@ -4,9 +4,9 @@ OBJS = main.o utility.o Graph.o tarjan.o
 OBJS_DIR = .objs
 
 CXX = clang++
-CXXFLAGS = -std=c++0x -c -g -O0 -Wall -Wextra
+CXXFLAGS = -std=c++20 -c -gdwarf-4 -g -O0 -Wall -Wextra 
 LD = clang++
-LDFLAGS = -std=c++0x
+LDFLAGS = -std=c++20
 
 all: $(EXENAME)
 

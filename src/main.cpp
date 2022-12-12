@@ -84,10 +84,16 @@ int main() {  //UNCOMMENT BELOW TO TEST//
   // }
 
 
+
+//**See Final Result of PageRank values in Final_Result.txt**//
+  ofstream myfile;
+  myfile.open ("/workspaces/CS225-Final-Project/Final_Result.txt");
+
 //**COMBINED TEST**//
   //Integrated 1 [ungraph-small]
   // Graph g;
   // g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small.txt");
+  // Referece: https://courses.cs.washington.edu/courses/cse373/17au/project3/project3-3.html
   // g.print();
   // g.ComputePageRanks(0.85, 10000);
   // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
@@ -96,9 +102,23 @@ int main() {  //UNCOMMENT BELOW TO TEST//
   //       + ": " + to_string(it->second.first->PageRank()) << endl;
   // }
 
-  // Integrated 2 [ungraph-small 2]
+  // // Integrated 2 [ungraph-small 2]
+  // Graph g;
+  // g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small 2.txt");
+  // g.print();
+  // //compute PageRank first
+  // g.ComputePageRanks(0.85, 10000);
+  // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  // for (auto it = vertices.begin(); it != vertices.end(); it++) {
+  //     cout << "Pagerank value for product " + it->second.first->label 
+  //     + ": " + to_string(it->second.first->PageRank()) << endl;
+  // }
+  // //find SCC and most popular product
+  // g.printSCCs();
+
+  // Integrated Final [ungraph] 
   Graph g;
-  g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small 2.txt");
+  g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph.txt");
   g.print();
   //compute PageRank first
   g.ComputePageRanks(0.85, 10000);
@@ -106,12 +126,16 @@ int main() {  //UNCOMMENT BELOW TO TEST//
   for (auto it = vertices.begin(); it != vertices.end(); it++) {
       cout << "Pagerank value for product " + it->second.first->label 
       + ": " + to_string(it->second.first->PageRank()) << endl;
+
+    myfile << "Pagerank value for product " + it->second.first->label 
+      + ": " + to_string(it->second.first->PageRank()) + "\n";
+
   }
   //find SCC and most popular product
   g.printSCCs();
 
 
-
-
+  
+  return 0;
 
 }

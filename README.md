@@ -26,7 +26,7 @@ The **damping_factor** simulates an imaginary product seeker who is randomly cli
 
 The number of iterations (**num_iterations**) is needed in the parameter because it not only is helpful for our testing, but also allows us to know when the pagerank value of each product converges to a float.
 
-To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the path of your dataset.
+To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the path of your dataset. TESTS: [pageRank_small] [ungraph-mixed]
 
 - - - - 
 ## Tarjan's algorithm Implementation
@@ -34,5 +34,6 @@ To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the pa
   We first dfs assign index of each vertexes and then find strong connected component by dfs.
 
 - - - -
-How to use our program?
-
+**How to use our program?**
+**make && ./main** in ./src folder
+REMEMBER to change the relative path of the dataset you want to use in **main.cpp**.

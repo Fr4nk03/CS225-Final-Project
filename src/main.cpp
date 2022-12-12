@@ -73,15 +73,15 @@ int main() {  //UNCOMMENT BELOW TO TEST//
   // }
 
   //Pagerank 2 [ungraph-mixed]
-  Graph g;
-  g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-mixed.txt");
-  g.print();
-  g.ComputePageRanks(0.85, 1000);
-  map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
-  for (auto it = vertices.begin(); it != vertices.end(); it++) {
-    cout << "Pagerank value for product " + it->second.first->label 
-            + ": " + to_string(it->second.first->PageRank()) << endl;
-  }
+  // Graph g;
+  // g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-mixed.txt");
+  // g.print();
+  // g.ComputePageRanks(0.85, 1000);
+  // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  // for (auto it = vertices.begin(); it != vertices.end(); it++) {
+  //   cout << "Pagerank value for product " + it->second.first->label 
+  //           + ": " + to_string(it->second.first->PageRank()) << endl;
+  // }
 
 
 //**COMBINED TEST**//
@@ -96,18 +96,19 @@ int main() {  //UNCOMMENT BELOW TO TEST//
   //       + ": " + to_string(it->second.first->PageRank()) << endl;
   // }
 
-  //Integrated 2 [ungraph-small 2]
-  // Graph g;
-  // g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small 2.txt");
-  // g.print();
-  // //compute PageRank first
-  // g.ComputePageRanks(0.85, 10000);
-  // map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
-  // for (auto it = vertices.begin(); it != vertices.end(); it++) {
-  //     cout << "Pagerank value for product " + it->second.first->label + ": " + to_string(it->second.first->PageRank()) << endl;
-  // }
-  // //find SCC and most popular product
-  // g.printSCCs();
+  // Integrated 2 [ungraph-small 2]
+  Graph g;
+  g.fileToGraph("/workspaces/CS225-Final-Project/data/amazon-ungraph-small 2.txt");
+  g.print();
+  //compute PageRank first
+  g.ComputePageRanks(0.85, 10000);
+  map<string, pair<Product*, vector<Edge>>> vertices = g.getGraph();
+  for (auto it = vertices.begin(); it != vertices.end(); it++) {
+      cout << "Pagerank value for product " + it->second.first->label 
+      + ": " + to_string(it->second.first->PageRank()) << endl;
+  }
+  //find SCC and most popular product
+  g.printSCCs();
 
 
 

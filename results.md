@@ -18,3 +18,7 @@ The goal of Pagerank algorithm is to evaluate popularity of the products. The fi
 
 ### Tarjan's Algorithm: 
 Tarjan's Algorithm is used to find Strongly Connected Components (SCC) in a directed graph. SCC is the portion of a directed graph where all the vertices can reach each other. To find the SCC, the user must first create a directed graph using the graph class in **graph.h** either by a text file or enter the vertices and edges manually. The user can then use the function **getSCC** to print the SCC in this directed graph. There is an example in **main.cpp**.
+
+- - - -
+## Conclusion:
+We encountered a data structure problem during the integration of the two algorithms. The problem is perfectly fixed by switching *** map<Product, vector<Edge>>*** to *** map<string, pair<Product*, vector<Edge>>> *** due to the const key of std::map. Our final result successfully answers the question we raised in the proposal, ie. finding the most popular product in the categories (SCCs). If the we can find the exact product according to the label provided by the dataset, it would be more interesting. Further improvement on our project can be a visualization of the network including the SCCs and how the products are connected to each other according to their pagerank values. 

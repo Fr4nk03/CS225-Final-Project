@@ -17,6 +17,4 @@ The goal of Pagerank algorithm is to evaluate popularity of the products. The fi
 
 
 ### Tarjan's Algorithm: 
-  We first dfs assign index of each vertexes and then find strong connected component by dfs.
-  
-How to use our program?
+Tarjan's Algorithm is used to find Strongly Connected Components (SCC) in a directed graph. SCC is the portion of a directed graph where all the vertices can reach each other. To find the SCC, the user must first create a directed graph using the graph class in **graph.h** either by a text file or enter the vertices and edges manually. The user can then use the function **getSCC** to print the SCC in this directed graph. There is an example in **main.cpp**.

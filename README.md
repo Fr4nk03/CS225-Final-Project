@@ -32,7 +32,7 @@ To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the pa
 ## Tarjan's algorithm Implementation
 ### Tarjan's: 
 
-Tarjan's algorithm is composed of two functions: **findSCC** and **dfs**
+Tarjan's algorithm is composed of two functions: **findSCC** and **dfs**. Inside **findSCC**, we initialize three vectors: **visited**, **onStack** and **lowLink**.
 
 - - - -
 ## How to use our program?**

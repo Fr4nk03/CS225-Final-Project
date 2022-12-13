@@ -32,7 +32,11 @@ To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the pa
 ## Tarjan's algorithm Implementation
 ### Tarjan's: 
 
-Tarjan's algorithm is composed of two functions: **findSCC** and **dfs**. Inside **findSCC**, we initialize three vectors: **visited**, **onStack** and **lowLink**.
+Tarjan's algorithm is composed of two functions: **findSCC** and **dfs**. Inside **findSCC**, we initialize three vectors: **visited**, **onStack** and **lowLink**, which will be used during the dfs traversal. Then, we just simply start **dfs**.
+
+In **dfs**, we assign each vertex an id and a low link value that is qual to the id. The low link value will be used to classify different groups of Strongly Connected Components (SCC). After that, we continue the dfs until there's no more vertices to visit, by then we start back tracking. During the back tracking process, we will modify every vetex's lowlink value. When we reach the vertex that has a lowlink value equal to its id, we realize this is the start of an SCC, which we then start poping the vertices belonging to this SCC from the stack.
+
+After all the procedures are completed, **findSCC** returns a vector, containing the low link value of all the vertices in our graph in that order. We can then get the SCC in this graph by classifying the vertices with the same low link value into one group.
 
 - - - -
 ## How to use our program?**

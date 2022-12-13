@@ -31,9 +31,10 @@ To run pagerank algorithm, uncomment blocks in **main.cpp** and change to the pa
 - - - - 
 ## Tarjan's algorithm Implementation
 ### Tarjan's: 
-  We first dfs assign index of each vertexes and then find strong connected component by dfs.
+
+Tarjan's algorithm is composed of two functions: **findSCC** and **dfs**
 
 - - - -
-**How to use our program?**
+## How to use our program?**
 **make && ./main** in ./src folder
 REMEMBER to change the relative path of the dataset you want to use in **main.cpp**.
